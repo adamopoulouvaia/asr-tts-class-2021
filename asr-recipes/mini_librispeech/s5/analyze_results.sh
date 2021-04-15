@@ -7,4 +7,4 @@ cat $hypothesis_tra | utils/int2sym.pl -f 2- data/lang_test_tglarge/words.txt | 
 python trw_to_wsj.py hypothesis.trw hypothesis.wsj
 python trw_to_wsj.py $ref_trw ref.wsj 
 
-/opt/kaldi/tools/sctk/bin/sclite -i ref.wsj -h hypothesis.wsj -o dtl 
+~/kaldi/tools/sctk/bin/sclite -i ref.wsj -h hypothesis.wsj -o dtl 

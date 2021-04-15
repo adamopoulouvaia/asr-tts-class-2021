@@ -1,0 +1,5196 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ref.wsj
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                        1089
+ with errors                             74.9%   ( 816)
+
+   with substitions                      72.9%   ( 794)
+   with deletions                        32.1%   ( 350)
+   with insertions                       19.7%   ( 215)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.6%   (3176)
+
+Percent Correct           =   85.8%   (17509)
+
+Percent Substitution      =   11.5%   (2343)
+Percent Deletions         =    2.7%   ( 547)
+Percent Insertions        =    1.4%   ( 286)
+Percent Word Accuracy     =   84.4%
+
+
+Ref. words                =           (20399)
+Hyp. words                =           (20138)
+Aligned words             =           (20685)
+
+CONFUSION PAIRS                  Total                 (2026)
+                                 With >=  1 occurrences (2026)
+
+   1:   25  ->  in ==> and
+   2:   24  ->  and ==> in
+   3:   20  ->  a ==> the
+   4:   20  ->  the ==> a
+   5:    9  ->  that ==> the
+   6:    7  ->  the ==> but
+   7:    6  ->  an ==> and
+   8:    6  ->  and ==> an
+   9:    5  ->  and ==> at
+  10:    5  ->  calico ==> kaliko
+  11:    5  ->  he ==> you
+  12:    5  ->  is ==> his
+  13:    5  ->  of ==> if
+  14:    5  ->  the ==> that
+  15:    5  ->  to ==> through
+  16:    4  ->  a ==> and
+  17:    4  ->  a ==> of
+  18:    4  ->  as ==> is
+  19:    4  ->  in ==> on
+  20:    4  ->  of ==> at
+  21:    4  ->  on ==> in
+  22:    4  ->  to ==> of
+  23:    3  ->  a ==> i
+  24:    3  ->  and ==> on
+  25:    3  ->  and ==> then
+  26:    3  ->  for ==> from
+  27:    3  ->  hands ==> hand
+  28:    3  ->  hater ==> theatre
+  29:    3  ->  heart ==> her
+  30:    3  ->  i ==> not
+  31:    3  ->  i'm ==> am
+  32:    3  ->  in ==> the
+  33:    3  ->  is ==> as
+  34:    3  ->  is ==> has
+  35:    3  ->  it ==> at
+  36:    3  ->  joe ==> sancho
+  37:    3  ->  latimer ==> lattimer
+  38:    3  ->  or ==> our
+  39:    3  ->  peace ==> piece
+  40:    3  ->  pie ==> magpie
+  41:    3  ->  pore ==> poor
+  42:    3  ->  pour ==> poor
+  43:    3  ->  round ==> around
+  44:    3  ->  sprang ==> spring
+  45:    3  ->  terraced ==> terrorist
+  46:    3  ->  the ==> though
+  47:    3  ->  the ==> to
+  48:    3  ->  there ==> milner
+  49:    3  ->  to ==> the
+  50:    3  ->  too ==> to
+  51:    3  ->  was ==> his
+  52:    3  ->  was ==> is
+  53:    3  ->  work ==> southwark
+  54:    3  ->  would ==> with
+  55:    3  ->  you're ==> are
+  56:    3  ->  you've ==> have
+  57:    2  ->  a ==> are
+  58:    2  ->  a ==> don
+  59:    2  ->  a ==> her
+  60:    2  ->  a ==> his
+  61:    2  ->  a ==> it
+  62:    2  ->  a ==> to
+  63:    2  ->  ahead ==> had
+  64:    2  ->  an ==> in
+  65:    2  ->  an ==> the
+  66:    2  ->  and ==> into
+  67:    2  ->  and ==> ossipon
+  68:    2  ->  and ==> that
+  69:    2  ->  and ==> thousand
+  70:    2  ->  antony ==> antonia
+  71:    2  ->  are ==> were
+  72:    2  ->  around ==> round
+  73:    2  ->  bank ==> mountebank
+  74:    2  ->  bed ==> that
+  75:    2  ->  but ==> with
+  76:    2  ->  callous ==> michaelis
+  77:    2  ->  cannot ==> out
+  78:    2  ->  day ==> quixote
+  79:    2  ->  dis ==> this
+  80:    2  ->  does ==> just
+  81:    2  ->  down ==> john
+  82:    2  ->  drop ==> draw
+  83:    2  ->  faced ==> face
+  84:    2  ->  first ==> ever
+  85:    2  ->  folks ==> fuchs
+  86:    2  ->  gazette ==> cosette
+  87:    2  ->  glowed ==> good
+  88:    2  ->  had ==> and
+  89:    2  ->  had ==> have
+  90:    2  ->  hand ==> inn
+  91:    2  ->  hawful ==> hovel
+  92:    2  ->  he's ==> is
+  93:    2  ->  i ==> a
+  94:    2  ->  is ==> was
+  95:    2  ->  it ==> have
+  96:    2  ->  it ==> that
+  97:    2  ->  lee ==> woodley
+  98:    2  ->  looks ==> looked
+  99:    2  ->  macleod ==> cloud
+ 100:    2  ->  meakin ==> meekin
+ 101:    2  ->  meeking ==> meekin
+ 102:    2  ->  merely ==> nearly
+ 103:    2  ->  my ==> from
+ 104:    2  ->  neighbours ==> neighbors
+ 105:    2  ->  nell ==> now
+ 106:    2  ->  o'tei ==> quixote
+ 107:    2  ->  of ==> are
+ 108:    2  ->  of ==> in
+ 109:    2  ->  of ==> with
+ 110:    2  ->  or ==> over
+ 111:    2  ->  passed ==> pass
+ 112:    2  ->  phoebe ==> fibi
+ 113:    2  ->  pinky's ==> pinkies
+ 114:    2  ->  playing ==> gwynplaine
+ 115:    2  ->  princes ==> princess
+ 116:    2  ->  recognised ==> recognized
+ 117:    2  ->  red ==> read
+ 118:    2  ->  rose ==> arose
+ 119:    2  ->  sad ==> sat
+ 120:    2  ->  said ==> it
+ 121:    2  ->  saved ==> save
+ 122:    2  ->  saying ==> seeing
+ 123:    2  ->  she ==> he
+ 124:    2  ->  she'd ==> sheep
+ 125:    2  ->  than ==> and
+ 126:    2  ->  that ==> a
+ 127:    2  ->  that ==> but
+ 128:    2  ->  the ==> his
+ 129:    2  ->  the ==> them
+ 130:    2  ->  the ==> this
+ 131:    2  ->  then ==> than
+ 132:    2  ->  then ==> there
+ 133:    2  ->  there's ==> is
+ 134:    2  ->  they ==> he
+ 135:    2  ->  tomorrow ==> morrow
+ 136:    2  ->  top ==> talk
+ 137:    2  ->  toward ==> towards
+ 138:    2  ->  travelling ==> traveling
+ 139:    2  ->  vapors ==> vapours
+ 140:    2  ->  wall ==> law
+ 141:    2  ->  was ==> with
+ 142:    2  ->  we've ==> have
+ 143:    2  ->  well ==> will
+ 144:    2  ->  were ==> where
+ 145:    2  ->  wind ==> when
+ 146:    2  ->  with ==> was
+ 147:    2  ->  you ==> it
+ 148:    1  ->  a ==> about
+ 149:    1  ->  a ==> an
+ 150:    1  ->  a ==> antonia
+ 151:    1  ->  a ==> approve
+ 152:    1  ->  a ==> at
+ 153:    1  ->  a ==> burn
+ 154:    1  ->  a ==> but
+ 155:    1  ->  a ==> doesn't
+ 156:    1  ->  a ==> e
+ 157:    1  ->  a ==> had
+ 158:    1  ->  a ==> have
+ 159:    1  ->  a ==> in
+ 160:    1  ->  a ==> karl
+ 161:    1  ->  a ==> know
+ 162:    1  ->  a ==> may
+ 163:    1  ->  a ==> must
+ 164:    1  ->  a ==> my
+ 165:    1  ->  a ==> says
+ 166:    1  ->  a ==> some
+ 167:    1  ->  a ==> swooned
+ 168:    1  ->  a ==> very
+ 169:    1  ->  a ==> wanted
+ 170:    1  ->  a ==> weird
+ 171:    1  ->  a ==> were
+ 172:    1  ->  a ==> whose
+ 173:    1  ->  a ==> your
+ 174:    1  ->  a's ==> where
+ 175:    1  ->  abel's ==> unable
+ 176:    1  ->  ability ==> lucky
+ 177:    1  ->  abuses ==> uses
+ 178:    1  ->  accent ==> accident
+ 179:    1  ->  accidents ==> accident
+ 180:    1  ->  acclamations ==> declamations
+ 181:    1  ->  across ==> cross
+ 182:    1  ->  actions ==> lashes
+ 183:    1  ->  add ==> have
+ 184:    1  ->  administrative ==> of
+ 185:    1  ->  admired ==> admire
+ 186:    1  ->  advance ==> events
+ 187:    1  ->  advantages ==> vantages
+ 188:    1  ->  aer ==> e'er
+ 189:    1  ->  aftah ==> after
+ 190:    1  ->  again ==> get
+ 191:    1  ->  agreed ==> greed
+ 192:    1  ->  ah ==> a
+ 193:    1  ->  ahead ==> head
+ 194:    1  ->  aig ==> very
+ 195:    1  ->  ain't ==> funny
+ 196:    1  ->  air ==> sierra
+ 197:    1  ->  air ==> there
+ 198:    1  ->  airway ==> way
+ 199:    1  ->  alb ==> how
+ 200:    1  ->  alene ==> tourmaline
+ 201:    1  ->  alete ==> occasionally
+ 202:    1  ->  alike ==> like
+ 203:    1  ->  aline ==> macklewain
+ 204:    1  ->  alive ==> live
+ 205:    1  ->  all ==> a
+ 206:    1  ->  all ==> balvastro
+ 207:    1  ->  all ==> burden
+ 208:    1  ->  all ==> dwell
+ 209:    1  ->  all ==> emotional
+ 210:    1  ->  all ==> i'll
+ 211:    1  ->  all ==> overthrow
+ 212:    1  ->  alley ==> valley
+ 213:    1  ->  alms ==> commandant's
+ 214:    1  ->  alone ==> little
+ 215:    1  ->  along ==> and
+ 216:    1  ->  along ==> on
+ 217:    1  ->  alp ==> mouth
+ 218:    1  ->  ambled ==> emerald
+ 219:    1  ->  america ==> shimerda
+ 220:    1  ->  amster ==> often
+ 221:    1  ->  amy ==> me
+ 222:    1  ->  an ==> wicked
+ 223:    1  ->  an't ==> and
+ 224:    1  ->  and ==> a
+ 225:    1  ->  and ==> abandoned
+ 226:    1  ->  and ==> ann
+ 227:    1  ->  and ==> citizen
+ 228:    1  ->  and ==> contrasted
+ 229:    1  ->  and ==> food
+ 230:    1  ->  and ==> fountains
+ 231:    1  ->  and ==> golden
+ 232:    1  ->  and ==> hadn't
+ 233:    1  ->  and ==> have
+ 234:    1  ->  and ==> i
+ 235:    1  ->  and ==> meekin
+ 236:    1  ->  and ==> mister
+ 237:    1  ->  and ==> no
+ 238:    1  ->  and ==> poison
+ 239:    1  ->  and ==> said
+ 240:    1  ->  and ==> shining
+ 241:    1  ->  and ==> taloned
+ 242:    1  ->  and ==> the
+ 243:    1  ->  and ==> to
+ 244:    1  ->  annie ==> eh
+ 245:    1  ->  anus ==> africanus
+ 246:    1  ->  any ==> excited
+ 247:    1  ->  any ==> they
+ 248:    1  ->  anyone ==> any
+ 249:    1  ->  anyone ==> one
+ 250:    1  ->  anything ==> thing
+ 251:    1  ->  ape ==> boy
+ 252:    1  ->  apostle ==> apostles
+ 253:    1  ->  apostles ==> apostle's
+ 254:    1  ->  appearance ==> in
+ 255:    1  ->  appointed ==> pointed
+ 256:    1  ->  arch ==> hans
+ 257:    1  ->  ardor ==> ardour
+ 258:    1  ->  are ==> a
+ 259:    1  ->  are ==> and
+ 260:    1  ->  are ==> arm
+ 261:    1  ->  are ==> at
+ 262:    1  ->  are ==> our
+ 263:    1  ->  are ==> ruggedo
+ 264:    1  ->  are ==> there's
+ 265:    1  ->  argy ==> you
+ 266:    1  ->  armed ==> gong
+ 267:    1  ->  arna ==> already
+ 268:    1  ->  arranged ==> range
+ 269:    1  ->  arrayed ==> fraid
+ 270:    1  ->  artist's ==> artists
+ 271:    1  ->  as ==> against
+ 272:    1  ->  as ==> and
+ 273:    1  ->  as ==> antonia's
+ 274:    1  ->  as ==> because
+ 275:    1  ->  as ==> largess
+ 276:    1  ->  as ==> managed
+ 277:    1  ->  as ==> shimerdas
+ 278:    1  ->  asa ==> lean
+ 279:    1  ->  asa ==> ossipon's
+ 280:    1  ->  ascend ==> footed
+ 281:    1  ->  ascribed ==> scrubbed
+ 282:    1  ->  ashore ==> assured
+ 283:    1  ->  asked ==> as
+ 284:    1  ->  asperges ==> burgess
+ 285:    1  ->  asse ==> penances
+ 286:    1  ->  assign ==> sigh
+ 287:    1  ->  assumed ==> claudia
+ 288:    1  ->  asts ==> ass
+ 289:    1  ->  at ==> a
+ 290:    1  ->  at ==> antonia
+ 291:    1  ->  at ==> as
+ 292:    1  ->  at ==> cosette
+ 293:    1  ->  at ==> etched
+ 294:    1  ->  at ==> have
+ 295:    1  ->  at ==> if
+ 296:    1  ->  at ==> it
+ 297:    1  ->  at ==> stepped
+ 298:    1  ->  ation ==> idealisation
+ 299:    1  ->  atlanta ==> a
+ 300:    1  ->  attend ==> attempt
+ 301:    1  ->  away ==> macklewain
+ 302:    1  ->  awed ==> odd
+ 303:    1  ->  awhile ==> while
+ 304:    1  ->  ay ==> i
+ 305:    1  ->  aye ==> are
+ 306:    1  ->  b ==> see
+ 307:    1  ->  b ==> thee
+ 308:    1  ->  b ==> we
+ 309:    1  ->  back ==> knack
+ 310:    1  ->  baden ==> on
+ 311:    1  ->  ball ==> comfortable
+ 312:    1  ->  ball ==> law
+ 313:    1  ->  ball ==> the
+ 314:    1  ->  balms ==> bones
+ 315:    1  ->  bandanna ==> a
+ 316:    1  ->  banks ==> mountebanks
+ 317:    1  ->  bano ==> libano
+ 318:    1  ->  bare ==> air
+ 319:    1  ->  bare ==> threadbare
+ 320:    1  ->  barely ==> merely
+ 321:    1  ->  barley ==> bartley
+ 322:    1  ->  barley ==> oh
+ 323:    1  ->  barren ==> they're
+ 324:    1  ->  barring ==> unbarring
+ 325:    1  ->  bas ==> wretchedness
+ 326:    1  ->  base ==> abbess
+ 327:    1  ->  base ==> una
+ 328:    1  ->  bath ==> deaf
+ 329:    1  ->  bawlin ==> bone
+ 330:    1  ->  be ==> a
+ 331:    1  ->  be ==> and
+ 332:    1  ->  be ==> eat
+ 333:    1  ->  be ==> maybe
+ 334:    1  ->  be ==> thee
+ 335:    1  ->  be ==> v
+ 336:    1  ->  beady ==> beauty
+ 337:    1  ->  bearing ==> baron
+ 338:    1  ->  beast ==> least
+ 339:    1  ->  beasts ==> least
+ 340:    1  ->  beating ==> us
+ 341:    1  ->  beau ==> but
+ 342:    1  ->  became ==> began
+ 343:    1  ->  bed ==> forbid
+ 344:    1  ->  been ==> and
+ 345:    1  ->  been ==> heaven
+ 346:    1  ->  began ==> begin
+ 347:    1  ->  begin ==> began
+ 348:    1  ->  begone ==> gong
+ 349:    1  ->  behaviour ==> behaved
+ 350:    1  ->  behind ==> pine
+ 351:    1  ->  being ==> venus
+ 352:    1  ->  belief ==> relief
+ 353:    1  ->  belinda ==> bhunda
+ 354:    1  ->  bell ==> bel
+ 355:    1  ->  belts ==> belt
+ 356:    1  ->  ben ==> bench
+ 357:    1  ->  bently ==> gradually
+ 358:    1  ->  berries ==> astride
+ 359:    1  ->  bessel ==> odd
+ 360:    1  ->  best ==> arabesque
+ 361:    1  ->  betsey ==> betsy
+ 362:    1  ->  better ==> bad
+ 363:    1  ->  big ==> very
+ 364:    1  ->  bill's ==> bill
+ 365:    1  ->  bin ==> been
+ 366:    1  ->  birdie ==> burning
+ 367:    1  ->  bits ==> boots
+ 368:    1  ->  blair ==> where
+ 369:    1  ->  blaise ==> binds
+ 370:    1  ->  blanco ==> blank
+ 371:    1  ->  blatchley ==> would
+ 372:    1  ->  blaze ==> blazed
+ 373:    1  ->  blaze ==> wood
+ 374:    1  ->  bled ==> blood
+ 375:    1  ->  bleeding ==> bleating
+ 376:    1  ->  blight ==> floodlight
+ 377:    1  ->  blinded ==> do
+ 378:    1  ->  block ==> luck
+ 379:    1  ->  blot ==> thought
+ 380:    1  ->  blue ==> blueskins
+ 381:    1  ->  boat ==> abode
+ 382:    1  ->  boat ==> bow
+ 383:    1  ->  boatman ==> boatmen
+ 384:    1  ->  bolts ==> bolt
+ 385:    1  ->  borgert ==> beauregard
+ 386:    1  ->  borrer ==> bur
+ 387:    1  ->  bottled ==> of
+ 388:    1  ->  bout ==> about
+ 389:    1  ->  bova ==> of
+ 390:    1  ->  bow ==> a
+ 391:    1  ->  bowing ==> bow
+ 392:    1  ->  brake ==> brig
+ 393:    1  ->  brand ==> brandd
+ 394:    1  ->  bread ==> bred
+ 395:    1  ->  bread ==> red
+ 396:    1  ->  breathed ==> breathe
+ 397:    1  ->  bred ==> read
+ 398:    1  ->  breve ==> breathe
+ 399:    1  ->  brians ==> brion
+ 400:    1  ->  brians ==> brion's
+ 401:    1  ->  bridled ==> unbridled
+ 402:    1  ->  brienne ==> brion
+ 403:    1  ->  brienne ==> saw
+ 404:    1  ->  briggs ==> a
+ 405:    1  ->  bright's ==> brides
+ 406:    1  ->  brings ==> springs
+ 407:    1  ->  broche ==> ambrosch
+ 408:    1  ->  brock ==> rock
+ 409:    1  ->  broken ==> unbroken
+ 410:    1  ->  brorson ==> lombroso
+ 411:    1  ->  bruce ==> spruce
+ 412:    1  ->  brush ==> ambrosch
+ 413:    1  ->  brutes ==> brute
+ 414:    1  ->  bryant ==> brand
+ 415:    1  ->  buds ==> bugs
+ 416:    1  ->  burden ==> it
+ 417:    1  ->  buried ==> very
+ 418:    1  ->  but ==> about
+ 419:    1  ->  but ==> if
+ 420:    1  ->  but ==> layer
+ 421:    1  ->  but ==> like
+ 422:    1  ->  but ==> my
+ 423:    1  ->  but ==> not
+ 424:    1  ->  but ==> went
+ 425:    1  ->  buyer ==> pyre
+ 426:    1  ->  by ==> thy
+ 427:    1  ->  c'est ==> palimpsest
+ 428:    1  ->  cages ==> ages
+ 429:    1  ->  cakes ==> corncakes
+ 430:    1  ->  called ==> hold
+ 431:    1  ->  called ==> lad
+ 432:    1  ->  calloused ==> michaelis
+ 433:    1  ->  can ==> and
+ 434:    1  ->  can ==> began
+ 435:    1  ->  can ==> can't
+ 436:    1  ->  can ==> could
+ 437:    1  ->  can ==> old
+ 438:    1  ->  can ==> to
+ 439:    1  ->  cantered ==> in
+ 440:    1  ->  captain ==> captains
+ 441:    1  ->  cards ==> cars
+ 442:    1  ->  carefree ==> free
+ 443:    1  ->  carrot ==> proletariat
+ 444:    1  ->  cart ==> car
+ 445:    1  ->  carts ==> cards
+ 446:    1  ->  cast ==> lamp
+ 447:    1  ->  cast ==> newscasts
+ 448:    1  ->  caste ==> gas
+ 449:    1  ->  cation ==> altercation
+ 450:    1  ->  caught ==> called
+ 451:    1  ->  cautiously ==> monstrously
+ 452:    1  ->  caverns ==> cavernous
+ 453:    1  ->  cell ==> so
+ 454:    1  ->  centre ==> center
+ 455:    1  ->  cerro ==> sarah
+ 456:    1  ->  chair ==> mixture
+ 457:    1  ->  chamber ==> bedchamber
+ 458:    1  ->  chap ==> chop
+ 459:    1  ->  characterised ==> very
+ 460:    1  ->  chasseur ==> other
+ 461:    1  ->  cheap ==> marriage
+ 462:    1  ->  checks ==> check
+ 463:    1  ->  cheiron ==> heuchera
+ 464:    1  ->  child ==> child's
+ 465:    1  ->  chill ==> sancho
+ 466:    1  ->  chips ==> kerchiefs
+ 467:    1  ->  chiseled ==> chiselled
+ 468:    1  ->  chow ==> sancho
+ 469:    1  ->  chris ==> cross
+ 470:    1  ->  chunda ==> chand
+ 471:    1  ->  cious ==> licentious
+ 472:    1  ->  cits ==> desist
+ 473:    1  ->  city ==> carrying
+ 474:    1  ->  city ==> see
+ 475:    1  ->  claiming ==> exclaiming
+ 476:    1  ->  clamor ==> clamour
+ 477:    1  ->  clarity ==> clearly
+ 478:    1  ->  clark ==> who
+ 479:    1  ->  classed ==> lasted
+ 480:    1  ->  clause ==> claws
+ 481:    1  ->  clean ==> clear
+ 482:    1  ->  climb ==> arms
+ 483:    1  ->  cloud ==> crevassed
+ 484:    1  ->  clyst ==> to
+ 485:    1  ->  co ==> yulka
+ 486:    1  ->  coal ==> school
+ 487:    1  ->  coarse ==> course
+ 488:    1  ->  coat ==> echoed
+ 489:    1  ->  coffin ==> and
+ 490:    1  ->  cole ==> who
+ 491:    1  ->  colonel ==> criminal
+ 492:    1  ->  color ==> scholar
+ 493:    1  ->  colour ==> color
+ 494:    1  ->  coloured ==> colored
+ 495:    1  ->  colours ==> colors
+ 496:    1  ->  combles ==> congal's
+ 497:    1  ->  come ==> a
+ 498:    1  ->  come ==> fixed
+ 499:    1  ->  comet ==> comrade
+ 500:    1  ->  comf'table ==> comfortable
+ 501:    1  ->  coming ==> homecoming
+ 502:    1  ->  complained ==> complain
+ 503:    1  ->  concede ==> see
+ 504:    1  ->  congo ==> congal
+ 505:    1  ->  conon ==> and
+ 506:    1  ->  consist ==> consists
+ 507:    1  ->  console ==> consult
+ 508:    1  ->  constrict ==> thick
+ 509:    1  ->  copper ==> cuthbert
+ 510:    1  ->  corpse ==> course
+ 511:    1  ->  coughed ==> quaffed
+ 512:    1  ->  could ==> would
+ 513:    1  ->  courts ==> course
+ 514:    1  ->  crafts ==> crests
+ 515:    1  ->  cream ==> green
+ 516:    1  ->  creature ==> sure
+ 517:    1  ->  crete ==> creep
+ 518:    1  ->  crisscross ==> cross
+ 519:    1  ->  crisscrossed ==> cross
+ 520:    1  ->  crobble ==> trouble
+ 521:    1  ->  crock ==> crook
+ 522:    1  ->  crop ==> prop
+ 523:    1  ->  crossed ==> crust
+ 524:    1  ->  crost ==> criss
+ 525:    1  ->  crown ==> ground
+ 526:    1  ->  cullud ==> could
+ 527:    1  ->  curly ==> early
+ 528:    1  ->  curry ==> valkyrie
+ 529:    1  ->  curtis ==> burgess
+ 530:    1  ->  cushions ==> christians
+ 531:    1  ->  cut ==> got
+ 532:    1  ->  d ==> quixote
+ 533:    1  ->  d ==> stupirti
+ 534:    1  ->  d'este ==> stevie
+ 535:    1  ->  d'you ==> you
+ 536:    1  ->  damn ==> saint
+ 537:    1  ->  danny ==> ganny
+ 538:    1  ->  dared ==> dare
+ 539:    1  ->  date ==> gait
+ 540:    1  ->  daumont ==> doma
+ 541:    1  ->  day ==> it
+ 542:    1  ->  day ==> to
+ 543:    1  ->  de ==> duty
+ 544:    1  ->  dead ==> deadened
+ 545:    1  ->  dean ==> hangar
+ 546:    1  ->  dear ==> deer
+ 547:    1  ->  death ==> doth
+ 548:    1  ->  deaths ==> death
+ 549:    1  ->  deceive ==> see
+ 550:    1  ->  deputies ==> is
+ 551:    1  ->  despair ==> spare
+ 552:    1  ->  despatched ==> dispatched
+ 553:    1  ->  destroyed ==> destroy
+ 554:    1  ->  dey ==> quixote
+ 555:    1  ->  dic's ==> bennydeck's
+ 556:    1  ->  dick ==> interdict
+ 557:    1  ->  did ==> again
+ 558:    1  ->  did ==> get
+ 559:    1  ->  did ==> here
+ 560:    1  ->  dieted ==> interdicted
+ 561:    1  ->  differing ==> different
+ 562:    1  ->  difficulties ==> is
+ 563:    1  ->  dill ==> passage
+ 564:    1  ->  dillon ==> delaunay's
+ 565:    1  ->  dillon ==> doing
+ 566:    1  ->  dim ==> doomed
+ 567:    1  ->  dis ==> is
+ 568:    1  ->  discussed ==> disgust
+ 569:    1  ->  disease ==> diseases
+ 570:    1  ->  disgracing ==> and
+ 571:    1  ->  dispatched ==> despatched
+ 572:    1  ->  distinctly ==> disdainfully
+ 573:    1  ->  ditch ==> teach
+ 574:    1  ->  diverted ==> it
+ 575:    1  ->  do ==> due
+ 576:    1  ->  does ==> did
+ 577:    1  ->  doesn't ==> a
+ 578:    1  ->  dolby ==> be
+ 579:    1  ->  donkey ==> don
+ 580:    1  ->  door ==> drawer
+ 581:    1  ->  dort ==> door
+ 582:    1  ->  dot ==> thought
+ 583:    1  ->  doth ==> dah
+ 584:    1  ->  down ==> finnacta
+ 585:    1  ->  down ==> slopes
+ 586:    1  ->  draught ==> drafted
+ 587:    1  ->  drawn ==> drawing
+ 588:    1  ->  dressing ==> undressing
+ 589:    1  ->  dried ==> dragged
+ 590:    1  ->  dried ==> sat
+ 591:    1  ->  droits ==> joint
+ 592:    1  ->  dry ==> up
+ 593:    1  ->  dummies ==> dummy's
+ 594:    1  ->  dust ==> dost
+ 595:    1  ->  dust ==> doth
+ 596:    1  ->  dyed ==> guide
+ 597:    1  ->  e ==> yes
+ 598:    1  ->  earlston ==> charleston
+ 599:    1  ->  ease ==> pinkies
+ 600:    1  ->  easton ==> euston
+ 601:    1  ->  eat ==> thirty
+ 602:    1  ->  edition ==> vision
+ 603:    1  ->  ees ==> it
+ 604:    1  ->  ef ==> at
+ 605:    1  ->  eighty ==> tennessee
+ 606:    1  ->  eighty ==> that
+ 607:    1  ->  einst ==> asked
+ 608:    1  ->  elaine ==> macklewain
+ 609:    1  ->  elaine ==> re
+ 610:    1  ->  elation ==> desolation
+ 611:    1  ->  elena ==> iona
+ 612:    1  ->  elfhild ==> foul
+ 613:    1  ->  em ==> am
+ 614:    1  ->  em ==> and
+ 615:    1  ->  embrace ==> embraced
+ 616:    1  ->  emitted ==> good
+ 617:    1  ->  emotion ==> notion
+ 618:    1  ->  en ==> and
+ 619:    1  ->  enable ==> enables
+ 620:    1  ->  enchanter's ==> enchanters
+ 621:    1  ->  endangers ==> dangers
+ 622:    1  ->  endeavor ==> endeavoured
+ 623:    1  ->  ended ==> had
+ 624:    1  ->  endless ==> in
+ 625:    1  ->  endocrines ==> criss
+ 626:    1  ->  engines ==> vengeance
+ 627:    1  ->  enjoy ==> and
+ 628:    1  ->  ensues ==> sooth
+ 629:    1  ->  enter ==> out
+ 630:    1  ->  enter ==> the
+ 631:    1  ->  entered ==> and
+ 632:    1  ->  equal ==> and
+ 633:    1  ->  ere ==> air
+ 634:    1  ->  eric ==> traitor
+ 635:    1  ->  erst ==> buzzer's
+ 636:    1  ->  eskimo's ==> eskimos
+ 637:    1  ->  essper ==> armies
+ 638:    1  ->  ever ==> whatever
+ 639:    1  ->  everybody ==> body
+ 640:    1  ->  everything ==> thing
+ 641:    1  ->  evidently ==> inevitably
+ 642:    1  ->  evince ==> evinced
+ 643:    1  ->  ewing ==> renewing
+ 644:    1  ->  exact ==> price
+ 645:    1  ->  expressed ==> exprest
+ 646:    1  ->  exultant ==> exalted
+ 647:    1  ->  eyeless ==> rugged
+ 648:    1  ->  eyes ==> united
+ 649:    1  ->  face ==> fetes
+ 650:    1  ->  face ==> fist
+ 651:    1  ->  fact ==> that
+ 652:    1  ->  factor ==> or
+ 653:    1  ->  fading ==> failing
+ 654:    1  ->  faint ==> thing
+ 655:    1  ->  fairies ==> fairs
+ 656:    1  ->  fall ==> but
+ 657:    1  ->  fall ==> default
+ 658:    1  ->  fall ==> follow
+ 659:    1  ->  fall ==> tall
+ 660:    1  ->  fane ==> thing
+ 661:    1  ->  fantasies ==> phantasies
+ 662:    1  ->  far ==> front
+ 663:    1  ->  fastening ==> unfastening
+ 664:    1  ->  fat ==> that
+ 665:    1  ->  fate ==> they
+ 666:    1  ->  favorable ==> favourable
+ 667:    1  ->  fay ==> fair
+ 668:    1  ->  fell ==> jean
+ 669:    1  ->  fell ==> valjean
+ 670:    1  ->  fellows ==> fellow
+ 671:    1  ->  felt ==> fell
+ 672:    1  ->  fences ==> offences
+ 673:    1  ->  fetched ==> thatched
+ 674:    1  ->  few ==> humanity
+ 675:    1  ->  file ==> vial
+ 676:    1  ->  filed ==> found
+ 677:    1  ->  fills ==> fails
+ 678:    1  ->  finn ==> the
+ 679:    1  ->  first ==> that
+ 680:    1  ->  fiscal ==> gulf
+ 681:    1  ->  flank ==> leg
+ 682:    1  ->  flap ==> laugh
+ 683:    1  ->  flashed ==> flesh
+ 684:    1  ->  flaunt ==> flog
+ 685:    1  ->  flaunting ==> to
+ 686:    1  ->  flawed ==> flood
+ 687:    1  ->  float ==> food
+ 688:    1  ->  floe ==> foe
+ 689:    1  ->  flood ==> flog
+ 690:    1  ->  flow ==> foil
+ 691:    1  ->  fond ==> front
+ 692:    1  ->  for ==> fort
+ 693:    1  ->  for ==> forward
+ 694:    1  ->  for ==> four
+ 695:    1  ->  for ==> god
+ 696:    1  ->  for ==> her
+ 697:    1  ->  for ==> matters
+ 698:    1  ->  for ==> up
+ 699:    1  ->  for ==> v
+ 700:    1  ->  forbade ==> forbid
+ 701:    1  ->  forded ==> of
+ 702:    1  ->  forest ==> were
+ 703:    1  ->  forget ==> it
+ 704:    1  ->  fort ==> or
+ 705:    1  ->  fortunate ==> of
+ 706:    1  ->  four ==> poor
+ 707:    1  ->  four ==> therefore
+ 708:    1  ->  fourth ==> worth
+ 709:    1  ->  fowls ==> a
+ 710:    1  ->  francis ==> inferences
+ 711:    1  ->  frees ==> trees
+ 712:    1  ->  fresh ==> thrust
+ 713:    1  ->  friend ==> different
+ 714:    1  ->  fright ==> fry
+ 715:    1  ->  from ==> death
+ 716:    1  ->  from ==> for
+ 717:    1  ->  frown ==> from
+ 718:    1  ->  fulke ==> folk
+ 719:    1  ->  full ==> in
+ 720:    1  ->  fuller ==> responsive
+ 721:    1  ->  furry ==> afraid
+ 722:    1  ->  furry ==> free
+ 723:    1  ->  fuses ==> infuses
+ 724:    1  ->  fut ==> foot
+ 725:    1  ->  gaff ==> gas
+ 726:    1  ->  gaffer ==> together
+ 727:    1  ->  gang ==> yank
+ 728:    1  ->  garden ==> could
+ 729:    1  ->  garter ==> gardar
+ 730:    1  ->  gas ==> gascon
+ 731:    1  ->  gate ==> ate
+ 732:    1  ->  gather ==> together
+ 733:    1  ->  gathered ==> in
+ 734:    1  ->  gathered ==> scattered
+ 735:    1  ->  gauge ==> gage
+ 736:    1  ->  gemma ==> i
+ 737:    1  ->  gent ==> agent
+ 738:    1  ->  gentleman ==> gentlemen
+ 739:    1  ->  gentleman' ==> gentlemen
+ 740:    1  ->  get ==> biggest
+ 741:    1  ->  get ==> did
+ 742:    1  ->  girl's ==> girls
+ 743:    1  ->  glee ==> probably
+ 744:    1  ->  glory ==> glorious
+ 745:    1  ->  glowing ==> il
+ 746:    1  ->  glycerine ==> glycerin
+ 747:    1  ->  gnomes ==> nomes
+ 748:    1  ->  going ==> echoing
+ 749:    1  ->  going ==> growing
+ 750:    1  ->  going ==> macklewain
+ 751:    1  ->  gold ==> go
+ 752:    1  ->  gollyer ==> or
+ 753:    1  ->  good ==> begged
+ 754:    1  ->  good ==> oh
+ 755:    1  ->  good ==> ruggedo
+ 756:    1  ->  goodbye ==> bye
+ 757:    1  ->  gossip ==> comrade
+ 758:    1  ->  got ==> god
+ 759:    1  ->  got ==> happy
+ 760:    1  ->  graceful ==> disgraceful
+ 761:    1  ->  grammar ==> bremer
+ 762:    1  ->  grand ==> grandeur
+ 763:    1  ->  grandall's ==> randal's
+ 764:    1  ->  graver ==> or
+ 765:    1  ->  gray ==> great
+ 766:    1  ->  great ==> grate
+ 767:    1  ->  great ==> grey
+ 768:    1  ->  great ==> rate
+ 769:    1  ->  greedy ==> breeding
+ 770:    1  ->  grooms ==> groom's
+ 771:    1  ->  ground ==> crowd
+ 772:    1  ->  group ==> grouped
+ 773:    1  ->  grow ==> for
+ 774:    1  ->  gryphon's ==> griffin's
+ 775:    1  ->  guarded ==> it
+ 776:    1  ->  guienne ==> again
+ 777:    1  ->  gush ==> the
+ 778:    1  ->  guy ==> grethel
+ 779:    1  ->  gwynplaine ==> gwynplaine's
+ 780:    1  ->  had ==> mistaken
+ 781:    1  ->  had ==> said
+ 782:    1  ->  haired ==> hair
+ 783:    1  ->  hairs ==> cares
+ 784:    1  ->  halfway ==> way
+ 785:    1  ->  hall ==> how
+ 786:    1  ->  hallen's ==> tall
+ 787:    1  ->  halls ==> howls
+ 788:    1  ->  hally ==> is
+ 789:    1  ->  ham ==> them
+ 790:    1  ->  handed ==> and
+ 791:    1  ->  hansom ==> handsome
+ 792:    1  ->  happy ==> unhappy
+ 793:    1  ->  harald ==> brion
+ 794:    1  ->  harbour ==> harbor
+ 795:    1  ->  harder ==> hard
+ 796:    1  ->  hardwick ==> hardwigg
+ 797:    1  ->  hare ==> hair
+ 798:    1  ->  harrison ==> garrison
+ 799:    1  ->  has ==> as
+ 800:    1  ->  has ==> had
+ 801:    1  ->  has ==> hast
+ 802:    1  ->  has ==> how
+ 803:    1  ->  have ==> had
+ 804:    1  ->  have ==> haven't
+ 805:    1  ->  have ==> if
+ 806:    1  ->  have ==> in
+ 807:    1  ->  have ==> of
+ 808:    1  ->  he ==> and
+ 809:    1  ->  he ==> kentucky
+ 810:    1  ->  he ==> t
+ 811:    1  ->  he ==> the
+ 812:    1  ->  he ==> they
+ 813:    1  ->  he ==> thy
+ 814:    1  ->  he ==> who
+ 815:    1  ->  he'd ==> you'd
+ 816:    1  ->  he'll ==> don
+ 817:    1  ->  head ==> it
+ 818:    1  ->  head ==> overhead
+ 819:    1  ->  heads ==> is
+ 820:    1  ->  hear ==> i
+ 821:    1  ->  hearers ==> here
+ 822:    1  ->  hearse ==> her's
+ 823:    1  ->  heart ==> hard
+ 824:    1  ->  heartless ==> regardless
+ 825:    1  ->  heat ==> he
+ 826:    1  ->  hee ==> he
+ 827:    1  ->  heedin ==> aidan
+ 828:    1  ->  hell ==> held
+ 829:    1  ->  hell ==> how
+ 830:    1  ->  help ==> helped
+ 831:    1  ->  hen ==> handler
+ 832:    1  ->  hens ==> manichaeans
+ 833:    1  ->  her ==> a
+ 834:    1  ->  her ==> algebra
+ 835:    1  ->  her ==> and
+ 836:    1  ->  her ==> are
+ 837:    1  ->  her ==> mister
+ 838:    1  ->  her ==> their
+ 839:    1  ->  here ==> a
+ 840:    1  ->  here ==> hear
+ 841:    1  ->  here ==> me
+ 842:    1  ->  herman ==> government
+ 843:    1  ->  herod ==> scared
+ 844:    1  ->  hers ==> tears
+ 845:    1  ->  herself ==> so
+ 846:    1  ->  hetty ==> heady
+ 847:    1  ->  high ==> i
+ 848:    1  ->  highland ==> island
+ 849:    1  ->  highway ==> than
+ 850:    1  ->  him ==> and
+ 851:    1  ->  him ==> dim
+ 852:    1  ->  him ==> em
+ 853:    1  ->  him ==> hamlet
+ 854:    1  ->  his ==> a
+ 855:    1  ->  his ==> is
+ 856:    1  ->  his ==> joyous
+ 857:    1  ->  his ==> was
+ 858:    1  ->  his ==> whose
+ 859:    1  ->  his ==> wise
+ 860:    1  ->  hoff ==> have
+ 861:    1  ->  hold ==> grethel
+ 862:    1  ->  hold ==> threshold
+ 863:    1  ->  hole ==> hull
+ 864:    1  ->  holt's ==> holds
+ 865:    1  ->  holtz's ==> his
+ 866:    1  ->  holy ==> wholly
+ 867:    1  ->  home ==> drachm
+ 868:    1  ->  honest ==> his
+ 869:    1  ->  honor ==> are
+ 870:    1  ->  hood ==> falsehood
+ 871:    1  ->  hooley ==> he
+ 872:    1  ->  hooligan ==> and
+ 873:    1  ->  hoping ==> hope
+ 874:    1  ->  horace ==> horse
+ 875:    1  ->  horror ==> heart
+ 876:    1  ->  houlston ==> a
+ 877:    1  ->  house ==> breadhouse
+ 878:    1  ->  house ==> storehouse
+ 879:    1  ->  how ==> huh
+ 880:    1  ->  hoy ==> to
+ 881:    1  ->  hub ==> how
+ 882:    1  ->  hull ==> how
+ 883:    1  ->  hum ==> many
+ 884:    1  ->  humour ==> humor
+ 885:    1  ->  hunt ==> yundt
+ 886:    1  ->  hunted ==> hundred
+ 887:    1  ->  hup ==> huh
+ 888:    1  ->  hurry ==> valkyrie
+ 889:    1  ->  hurt ==> heard
+ 890:    1  ->  i ==> antonia
+ 891:    1  ->  i ==> ass
+ 892:    1  ->  i ==> i'd
+ 893:    1  ->  i ==> i'm
+ 894:    1  ->  i ==> like
+ 895:    1  ->  i ==> magpie
+ 896:    1  ->  i ==> try
+ 897:    1  ->  i ==> us
+ 898:    1  ->  i'd ==> had
+ 899:    1  ->  i'll ==> ah
+ 900:    1  ->  i'll ==> will
+ 901:    1  ->  i'm ==> and
+ 902:    1  ->  iahvah ==> young
+ 903:    1  ->  ids ==> its
+ 904:    1  ->  if ==> as
+ 905:    1  ->  if ==> big
+ 906:    1  ->  if ==> is
+ 907:    1  ->  if ==> of
+ 908:    1  ->  if ==> that
+ 909:    1  ->  ignored ==> lord
+ 910:    1  ->  impostor ==> impara
+ 911:    1  ->  in ==> an
+ 912:    1  ->  in ==> itinerant
+ 913:    1  ->  in ==> loincloth
+ 914:    1  ->  in ==> now
+ 915:    1  ->  in ==> o
+ 916:    1  ->  in ==> talk
+ 917:    1  ->  in ==> was
+ 918:    1  ->  in's ==> ossipon's
+ 919:    1  ->  ina ==> is
+ 920:    1  ->  incensed ==> sensed
+ 921:    1  ->  inched ==> just
+ 922:    1  ->  increase ==> entice
+ 923:    1  ->  india ==> vendhya
+ 924:    1  ->  ing ==> being
+ 925:    1  ->  ingratitude ==> gratitude
+ 926:    1  ->  ingur ==> fjordungr
+ 927:    1  ->  inhabit ==> habit
+ 928:    1  ->  ink ==> reigned
+ 929:    1  ->  inn ==> and
+ 930:    1  ->  innate ==> it
+ 931:    1  ->  inner ==> a
+ 932:    1  ->  innocent ==> instead
+ 933:    1  ->  inquired ==> word
+ 934:    1  ->  inseparable ==> insuperable
+ 935:    1  ->  insistent ==> spook
+ 936:    1  ->  into ==> and
+ 937:    1  ->  into ==> in
+ 938:    1  ->  into ==> meekin
+ 939:    1  ->  into ==> turned
+ 940:    1  ->  intruders ==> intruder
+ 941:    1  ->  invalid ==> wood
+ 942:    1  ->  inverted ==> wearing
+ 943:    1  ->  is ==> dais
+ 944:    1  ->  is ==> devours
+ 945:    1  ->  is ==> famous
+ 946:    1  ->  is ==> fled
+ 947:    1  ->  is ==> if
+ 948:    1  ->  is ==> it's
+ 949:    1  ->  is ==> labours
+ 950:    1  ->  is ==> languages
+ 951:    1  ->  is ==> lives
+ 952:    1  ->  is ==> makers
+ 953:    1  ->  is ==> others
+ 954:    1  ->  is ==> raised
+ 955:    1  ->  is ==> rise
+ 956:    1  ->  is ==> this
+ 957:    1  ->  is ==> whereas
+ 958:    1  ->  is't ==> ay
+ 959:    1  ->  isabel ==> a
+ 960:    1  ->  isms ==> paroxysms
+ 961:    1  ->  isn't ==> and
+ 962:    1  ->  issued ==> shoot
+ 963:    1  ->  ist ==> as
+ 964:    1  ->  it ==> and
+ 965:    1  ->  it ==> any
+ 966:    1  ->  it ==> bed
+ 967:    1  ->  it ==> but
+ 968:    1  ->  it ==> characteristic
+ 969:    1  ->  it ==> fetching
+ 970:    1  ->  it ==> finger
+ 971:    1  ->  it ==> gesticulating
+ 972:    1  ->  it ==> i
+ 973:    1  ->  it ==> if
+ 974:    1  ->  it ==> in
+ 975:    1  ->  it ==> its
+ 976:    1  ->  it ==> loaded
+ 977:    1  ->  it ==> moulded
+ 978:    1  ->  it ==> much
+ 979:    1  ->  it ==> narrative
+ 980:    1  ->  it ==> surprising
+ 981:    1  ->  it ==> there
+ 982:    1  ->  it ==> think
+ 983:    1  ->  it ==> yet
+ 984:    1  ->  it's ==> says
+ 985:    1  ->  its ==> fits
+ 986:    1  ->  its ==> it's
+ 987:    1  ->  its ==> lips
+ 988:    1  ->  itself ==> at
+ 989:    1  ->  izzie ==> he
+ 990:    1  ->  jam ==> jim
+ 991:    1  ->  jessie's ==> you
+ 992:    1  ->  jetted ==> jagged
+ 993:    1  ->  jingle ==> gingle
+ 994:    1  ->  john ==> jean
+ 995:    1  ->  john ==> whether
+ 996:    1  ->  johnson ==> and
+ 997:    1  ->  johnson ==> johnston
+ 998:    1  ->  joly ==> joy
+ 999:    1  ->  jonah ==> had
+1000:    1  ->  jory ==> joy
+1001:    1  ->  jotting ==> johnny
+1002:    1  ->  katharine ==> catherine
+1003:    1  ->  katherine's ==> catherine's
+1004:    1  ->  katy ==> on
+1005:    1  ->  keels ==> gills
+1006:    1  ->  keep ==> keeps
+1007:    1  ->  keepin ==> keeping
+1008:    1  ->  ken ==> and
+1009:    1  ->  kens ==> birdikins
+1010:    1  ->  kerplonne ==> kirkland
+1011:    1  ->  key ==> he
+1012:    1  ->  keyed ==> keep
+1013:    1  ->  kick ==> could
+1014:    1  ->  killed ==> him
+1015:    1  ->  king ==> drinking
+1016:    1  ->  king ==> he
+1017:    1  ->  kissed ==> makest
+1018:    1  ->  kitchens ==> kittens
+1019:    1  ->  kneel ==> knew
+1020:    1  ->  knells ==> petronels
+1021:    1  ->  knocked ==> hospitable
+1022:    1  ->  knots ==> not
+1023:    1  ->  know ==> don't
+1024:    1  ->  know ==> otto
+1025:    1  ->  know ==> out
+1026:    1  ->  know ==> unknown
+1027:    1  ->  kolya ==> karl
+1028:    1  ->  l ==> otto
+1029:    1  ->  lackeys ==> lacquey's
+1030:    1  ->  laigs ==> legs
+1031:    1  ->  lak ==> glad
+1032:    1  ->  lane ==> macklewain
+1033:    1  ->  larval ==> larva
+1034:    1  ->  lash ==> whiplash
+1035:    1  ->  last ==> lost
+1036:    1  ->  latch ==> elect
+1037:    1  ->  late ==> lake
+1038:    1  ->  latter ==> glad
+1039:    1  ->  latter ==> of
+1040:    1  ->  laughed ==> laugh
+1041:    1  ->  lay ==> defiantly
+1042:    1  ->  lead ==> loaded
+1043:    1  ->  leading ==> translating
+1044:    1  ->  leads ==> lids
+1045:    1  ->  leapt ==> leaped
+1046:    1  ->  lease ==> least
+1047:    1  ->  lee ==> feverishly
+1048:    1  ->  left ==> loved
+1049:    1  ->  legrand ==> liberated
+1050:    1  ->  lem ==> limb
+1051:    1  ->  lep ==> cruel
+1052:    1  ->  let ==> led
+1053:    1  ->  let's ==> us
+1054:    1  ->  light ==> like
+1055:    1  ->  light ==> lodge
+1056:    1  ->  like ==> birdlike
+1057:    1  ->  like ==> cloudlike
+1058:    1  ->  like ==> let
+1059:    1  ->  like ==> piglike
+1060:    1  ->  like ==> riverlike
+1061:    1  ->  liked ==> like
+1062:    1  ->  linacre ==> on
+1063:    1  ->  line ==> i'm
+1064:    1  ->  lines ==> alive
+1065:    1  ->  lines ==> laws
+1066:    1  ->  lipstick ==> lips
+1067:    1  ->  listen ==> in
+1068:    1  ->  listen ==> those
+1069:    1  ->  listen'd ==> reckless
+1070:    1  ->  lived ==> love
+1071:    1  ->  livery ==> liveryman
+1072:    1  ->  livin ==> looking
+1073:    1  ->  loads ==> loaves
+1074:    1  ->  locke ==> verloc
+1075:    1  ->  loman ==> woman
+1076:    1  ->  lone ==> low
+1077:    1  ->  look ==> looked
+1078:    1  ->  looked ==> out
+1079:    1  ->  lord ==> lower
+1080:    1  ->  lord ==> roared
+1081:    1  ->  lords ==> lurid
+1082:    1  ->  lore ==> lower
+1083:    1  ->  lot ==> verloc
+1084:    1  ->  lots ==> laws
+1085:    1  ->  louis ==> moves
+1086:    1  ->  lovable ==> bow
+1087:    1  ->  low ==> willow
+1088:    1  ->  luck ==> verloc
+1089:    1  ->  lufton ==> on
+1090:    1  ->  lying ==> drawing
+1091:    1  ->  lying ==> lie
+1092:    1  ->  lying ==> wine
+1093:    1  ->  lyonesse ==> lying
+1094:    1  ->  lyre ==> of
+1095:    1  ->  m ==> and
+1096:    1  ->  m ==> he
+1097:    1  ->  mac ==> macklewain
+1098:    1  ->  made ==> a
+1099:    1  ->  made ==> she
+1100:    1  ->  magians ==> mosses
+1101:    1  ->  magister ==> magistrate
+1102:    1  ->  maid ==> maiden
+1103:    1  ->  maine ==> mane
+1104:    1  ->  maka ==> macklewain
+1105:    1  ->  makkah ==> to
+1106:    1  ->  malka ==> uncle
+1107:    1  ->  malling ==> moling
+1108:    1  ->  man ==> adamnan
+1109:    1  ->  man ==> highwayman
+1110:    1  ->  man ==> in
+1111:    1  ->  man ==> limb
+1112:    1  ->  man ==> men
+1113:    1  ->  man ==> them
+1114:    1  ->  man ==> who
+1115:    1  ->  manage ==> madge
+1116:    1  ->  manche ==> madge
+1117:    1  ->  mandy ==> than
+1118:    1  ->  maragon's ==> this
+1119:    1  ->  marched ==> march
+1120:    1  ->  mark ==> milner
+1121:    1  ->  marot ==> moira
+1122:    1  ->  marveling ==> marvelling
+1123:    1  ->  mary ==> extraordinary
+1124:    1  ->  mass ==> masts
+1125:    1  ->  master ==> stationmaster
+1126:    1  ->  mastered ==> master
+1127:    1  ->  mating ==> matchmaking
+1128:    1  ->  matter ==> milner
+1129:    1  ->  may ==> name
+1130:    1  ->  may ==> or
+1131:    1  ->  mayn't ==> may
+1132:    1  ->  maze ==> looked
+1133:    1  ->  me ==> army
+1134:    1  ->  me ==> thee
+1135:    1  ->  me ==> tony
+1136:    1  ->  me ==> we
+1137:    1  ->  meal ==> mule
+1138:    1  ->  meal ==> you
+1139:    1  ->  measure ==> measured
+1140:    1  ->  medic ==> magic
+1141:    1  ->  member ==> remembered
+1142:    1  ->  members ==> numbers
+1143:    1  ->  men ==> and
+1144:    1  ->  mends ==> lives
+1145:    1  ->  mere ==> near
+1146:    1  ->  mighty ==> eat
+1147:    1  ->  mild ==> miles
+1148:    1  ->  min ==> feet
+1149:    1  ->  mina's ==> as
+1150:    1  ->  mind ==> mud
+1151:    1  ->  mine ==> my
+1152:    1  ->  minit ==> minute
+1153:    1  ->  misery ==> missouri
+1154:    1  ->  mistakenly ==> lady
+1155:    1  ->  mites ==> light
+1156:    1  ->  mme ==> them
+1157:    1  ->  mohawks ==> modocs
+1158:    1  ->  mole ==> in
+1159:    1  ->  mon ==> moan
+1160:    1  ->  mon ==> mom
+1161:    1  ->  month ==> months
+1162:    1  ->  morane ==> moraine
+1163:    1  ->  mordaunt ==> modoc
+1164:    1  ->  more ==> herbivore
+1165:    1  ->  morris ==> remorse
+1166:    1  ->  mort ==> lord
+1167:    1  ->  most ==> hindmost
+1168:    1  ->  moths ==> mouths
+1169:    1  ->  motions ==> emotion
+1170:    1  ->  motions ==> emotions
+1171:    1  ->  mouche ==> moved
+1172:    1  ->  mould ==> fumbled
+1173:    1  ->  mound ==> mountain
+1174:    1  ->  moustache ==> mustache
+1175:    1  ->  move ==> moved
+1176:    1  ->  moved ==> move
+1177:    1  ->  ms ==> miss
+1178:    1  ->  much ==> but
+1179:    1  ->  muffler ==> mother
+1180:    1  ->  muntz ==> months
+1181:    1  ->  mus ==> must
+1182:    1  ->  muse ==> knew
+1183:    1  ->  mustn't ==> have
+1184:    1  ->  my ==> haired
+1185:    1  ->  my ==> mine
+1186:    1  ->  my ==> thy
+1187:    1  ->  na ==> hour
+1188:    1  ->  nail ==> fingernail
+1189:    1  ->  named ==> maiden
+1190:    1  ->  narbonne ==> glenarvan
+1191:    1  ->  narrow ==> arena
+1192:    1  ->  nat ==> very
+1193:    1  ->  nattier ==> nutty
+1194:    1  ->  nea ==> urania
+1195:    1  ->  nears ==> mountaineers
+1196:    1  ->  neath ==> beneath
+1197:    1  ->  ned ==> led
+1198:    1  ->  need ==> any
+1199:    1  ->  need ==> tongue
+1200:    1  ->  needed ==> neither
+1201:    1  ->  needles ==> meals
+1202:    1  ->  needst ==> need'st
+1203:    1  ->  negroes ==> grows
+1204:    1  ->  neha ==> dulcinea
+1205:    1  ->  neighbour's ==> neighbours
+1206:    1  ->  nepos ==> his
+1207:    1  ->  net ==> chestnut
+1208:    1  ->  never ==> very
+1209:    1  ->  new ==> live
+1210:    1  ->  newsome ==> saknussemm
+1211:    1  ->  nicholas ==> nicless
+1212:    1  ->  nigger ==> negro
+1213:    1  ->  night ==> knight
+1214:    1  ->  nil ==> middle
+1215:    1  ->  nina ==> that
+1216:    1  ->  nines ==> nice
+1217:    1  ->  nioche ==> make
+1218:    1  ->  no ==> don't
+1219:    1  ->  no ==> your
+1220:    1  ->  none ==> not
+1221:    1  ->  noontime ==> noontide
+1222:    1  ->  nor ==> or
+1223:    1  ->  norah ==> are
+1224:    1  ->  norah ==> iona
+1225:    1  ->  normous ==> enormous
+1226:    1  ->  not ==> iona
+1227:    1  ->  not ==> milk
+1228:    1  ->  not ==> mount
+1229:    1  ->  not ==> nut
+1230:    1  ->  not ==> that
+1231:    1  ->  nothing ==> loafing
+1232:    1  ->  nough ==> enough
+1233:    1  ->  noun ==> and
+1234:    1  ->  noun ==> now
+1235:    1  ->  now ==> know
+1236:    1  ->  now ==> no
+1237:    1  ->  now ==> them
+1238:    1  ->  now ==> to
+1239:    1  ->  numb ==> and
+1240:    1  ->  numb ==> sydenham
+1241:    1  ->  nursing ==> their
+1242:    1  ->  nuss ==> vinos
+1243:    1  ->  nut ==> not
+1244:    1  ->  nutshell ==> shell
+1245:    1  ->  o ==> don
+1246:    1  ->  o ==> tarrinzeau
+1247:    1  ->  o ==> you
+1248:    1  ->  oak ==> troke
+1249:    1  ->  oats ==> montesinos
+1250:    1  ->  obeyed ==> obey
+1251:    1  ->  occur ==> that
+1252:    1  ->  odda ==> a
+1253:    1  ->  odious ==> is
+1254:    1  ->  of ==> a
+1255:    1  ->  of ==> biology
+1256:    1  ->  of ==> defective
+1257:    1  ->  of ==> discussion
+1258:    1  ->  of ==> disgrace
+1259:    1  ->  of ==> don
+1260:    1  ->  of ==> exacted
+1261:    1  ->  of ==> finally
+1262:    1  ->  of ==> have
+1263:    1  ->  of ==> michaelis
+1264:    1  ->  of ==> obeying
+1265:    1  ->  of ==> so
+1266:    1  ->  of ==> they
+1267:    1  ->  of ==> was
+1268:    1  ->  of ==> you're
+1269:    1  ->  offhand ==> hand
+1270:    1  ->  officers ==> officer
+1271:    1  ->  often ==> and
+1272:    1  ->  oh ==> o
+1273:    1  ->  old ==> oh
+1274:    1  ->  old ==> while
+1275:    1  ->  older ==> or
+1276:    1  ->  olenin ==> and
+1277:    1  ->  ollie's ==> these
+1278:    1  ->  on ==> an
+1279:    1  ->  on ==> been
+1280:    1  ->  on ==> beyond
+1281:    1  ->  on ==> popolo
+1282:    1  ->  on ==> quite
+1283:    1  ->  on ==> saw
+1284:    1  ->  on ==> shimerda
+1285:    1  ->  on ==> tara
+1286:    1  ->  once ==> woods
+1287:    1  ->  one ==> the
+1288:    1  ->  one ==> went
+1289:    1  ->  ones ==> one
+1290:    1  ->  oo ==> bartley
+1291:    1  ->  opal ==> yokul
+1292:    1  ->  opened ==> opens
+1293:    1  ->  opening ==> openings
+1294:    1  ->  opportunity ==> and
+1295:    1  ->  or ==> are
+1296:    1  ->  or ==> nor
+1297:    1  ->  or ==> power
+1298:    1  ->  or ==> various
+1299:    1  ->  or ==> your
+1300:    1  ->  orange ==> gully
+1301:    1  ->  orly ==> only
+1302:    1  ->  ortolans ==> lose
+1303:    1  ->  ossip ==> alexander
+1304:    1  ->  ossip ==> comrade
+1305:    1  ->  other ==> it
+1306:    1  ->  other ==> others
+1307:    1  ->  oughter ==> otto
+1308:    1  ->  ould ==> a
+1309:    1  ->  our ==> a
+1310:    1  ->  our ==> her
+1311:    1  ->  ous ==> impulses
+1312:    1  ->  out ==> canada
+1313:    1  ->  out ==> dugout
+1314:    1  ->  out ==> europe
+1315:    1  ->  out ==> now
+1316:    1  ->  out ==> panza
+1317:    1  ->  out ==> shimerda
+1318:    1  ->  out ==> stab
+1319:    1  ->  out ==> up
+1320:    1  ->  outlets ==> lips
+1321:    1  ->  over ==> however
+1322:    1  ->  overthrew ==> the
+1323:    1  ->  owen ==> i'm
+1324:    1  ->  owl ==> go
+1325:    1  ->  own ==> asplenium
+1326:    1  ->  own ==> mountain
+1327:    1  ->  own ==> owe
+1328:    1  ->  oz ==> as
+1329:    1  ->  pacey ==> see
+1330:    1  ->  paddock ==> panic
+1331:    1  ->  page ==> thee
+1332:    1  ->  paid ==> a
+1333:    1  ->  paine ==> has
+1334:    1  ->  painter ==> pyrrha
+1335:    1  ->  pair ==> ere
+1336:    1  ->  pal ==> cow
+1337:    1  ->  parchment ==> apartment
+1338:    1  ->  pardons ==> pardoned
+1339:    1  ->  parlor ==> parlour
+1340:    1  ->  part ==> art
+1341:    1  ->  part ==> heart
+1342:    1  ->  part ==> shell
+1343:    1  ->  partly ==> bartley
+1344:    1  ->  passages ==> is
+1345:    1  ->  passee ==> delectasti
+1346:    1  ->  pat ==> that
+1347:    1  ->  pathetic ==> prophetic
+1348:    1  ->  paul ==> of
+1349:    1  ->  peers ==> pairs
+1350:    1  ->  pelle ==> thou
+1351:    1  ->  penance ==> as
+1352:    1  ->  penmen ==> men
+1353:    1  ->  peoples ==> people's
+1354:    1  ->  perceive ==> perceived
+1355:    1  ->  percombe ==> can
+1356:    1  ->  permits ==> government
+1357:    1  ->  ph ==> a
+1358:    1  ->  phone ==> radiophone
+1359:    1  ->  phyl ==> of
+1360:    1  ->  pillows ==> pillow
+1361:    1  ->  pine ==> magpie
+1362:    1  ->  pines ==> pangs
+1363:    1  ->  pit ==> pitt
+1364:    1  ->  placed ==> gwynplaine
+1365:    1  ->  placed ==> pleased
+1366:    1  ->  plain ==> gwynplaine's
+1367:    1  ->  plan ==> kirkland
+1368:    1  ->  plan ==> plane
+1369:    1  ->  plane ==> plain
+1370:    1  ->  planed ==> gwynplaine
+1371:    1  ->  planes ==> gwynplaine's
+1372:    1  ->  plastering ==> posturing
+1373:    1  ->  plates ==> plaits
+1374:    1  ->  pleading ==> plaiting
+1375:    1  ->  plenty's ==> twenties
+1376:    1  ->  plight ==> pike
+1377:    1  ->  plots ==> that
+1378:    1  ->  plough ==> the
+1379:    1  ->  plying ==> play
+1380:    1  ->  pobble ==> pavel
+1381:    1  ->  poisoned ==> poison
+1382:    1  ->  poke ==> who
+1383:    1  ->  polite ==> boy
+1384:    1  ->  pommel ==> pavel
+1385:    1  ->  pompous ==> pampas
+1386:    1  ->  poney ==> pony
+1387:    1  ->  poor ==> poorer
+1388:    1  ->  popcorn ==> it
+1389:    1  ->  pope ==> poked
+1390:    1  ->  por ==> poor
+1391:    1  ->  portrait ==> portraits
+1392:    1  ->  possesses ==> possessors
+1393:    1  ->  post ==> impost
+1394:    1  ->  potter ==> cutter
+1395:    1  ->  pounce ==> sancho
+1396:    1  ->  pour ==> horror
+1397:    1  ->  pours ==> poor
+1398:    1  ->  power ==> bur
+1399:    1  ->  predicable ==> little
+1400:    1  ->  prent ==> print
+1401:    1  ->  pressed ==> passed
+1402:    1  ->  price ==> prize
+1403:    1  ->  pride ==> guides
+1404:    1  ->  princes ==> process
+1405:    1  ->  priors ==> prayers
+1406:    1  ->  profit ==> prophet
+1407:    1  ->  promise ==> promised
+1408:    1  ->  prove ==> proved
+1409:    1  ->  prove ==> to
+1410:    1  ->  province ==> promise
+1411:    1  ->  prowl ==> prowled
+1412:    1  ->  pulleys ==> police
+1413:    1  ->  pulp ==> gulp
+1414:    1  ->  pulse ==> conventicles
+1415:    1  ->  purer ==> pure
+1416:    1  ->  pursley ==> personally
+1417:    1  ->  putting ==> in
+1418:    1  ->  quarters ==> corners
+1419:    1  ->  quito ==> chico
+1420:    1  ->  rain ==> ring
+1421:    1  ->  raise ==> raised
+1422:    1  ->  randall ==> randal
+1423:    1  ->  randall's ==> randal's
+1424:    1  ->  ranged ==> arranged
+1425:    1  ->  rat ==> right
+1426:    1  ->  rather ==> brother
+1427:    1  ->  read ==> bring
+1428:    1  ->  read ==> reap
+1429:    1  ->  read ==> rout
+1430:    1  ->  ready ==> already
+1431:    1  ->  reasons ==> regent's
+1432:    1  ->  reassured ==> assured
+1433:    1  ->  receive ==> received
+1434:    1  ->  recognizes ==> as
+1435:    1  ->  rectus ==> rictus
+1436:    1  ->  red ==> they
+1437:    1  ->  reisen ==> horizon
+1438:    1  ->  relock ==> verloc
+1439:    1  ->  remains ==> remained
+1440:    1  ->  responsiveness ==> now
+1441:    1  ->  retold ==> grethel
+1442:    1  ->  ride ==> right
+1443:    1  ->  rien ==> on
+1444:    1  ->  right ==> might
+1445:    1  ->  rigid ==> rooted
+1446:    1  ->  rinds ==> rhymes
+1447:    1  ->  riv ==> roof
+1448:    1  ->  river ==> that
+1449:    1  ->  rob ==> frog
+1450:    1  ->  robbed ==> rubbed
+1451:    1  ->  rocks ==> awful
+1452:    1  ->  rocks ==> rut
+1453:    1  ->  rollway ==> away
+1454:    1  ->  rome ==> aroma
+1455:    1  ->  rome ==> dome
+1456:    1  ->  rome ==> the
+1457:    1  ->  ron ==> on
+1458:    1  ->  roomful ==> full
+1459:    1  ->  rope ==> broke
+1460:    1  ->  roue ==> brute
+1461:    1  ->  round ==> wronged
+1462:    1  ->  route ==> cheroot
+1463:    1  ->  route ==> rough
+1464:    1  ->  rowlock ==> verloc
+1465:    1  ->  ruin ==> own
+1466:    1  ->  rule ==> boolooroo
+1467:    1  ->  rum ==> program
+1468:    1  ->  ruse ==> rose
+1469:    1  ->  rye ==> thou
+1470:    1  ->  s ==> prodigious
+1471:    1  ->  s ==> yes
+1472:    1  ->  sad ==> said
+1473:    1  ->  said ==> also
+1474:    1  ->  said ==> and
+1475:    1  ->  said ==> raimented
+1476:    1  ->  said ==> sent
+1477:    1  ->  said ==> sid
+1478:    1  ->  said ==> that
+1479:    1  ->  saint ==> it
+1480:    1  ->  saints ==> saint
+1481:    1  ->  salt ==> saw
+1482:    1  ->  sancha ==> sancho
+1483:    1  ->  sang ==> saying
+1484:    1  ->  sar ==> sir
+1485:    1  ->  sara ==> sear
+1486:    1  ->  sat ==> sad
+1487:    1  ->  sat ==> said
+1488:    1  ->  satterday ==> saturday
+1489:    1  ->  saul ==> saw
+1490:    1  ->  savor ==> savour
+1491:    1  ->  say ==> saint
+1492:    1  ->  sayd ==> had
+1493:    1  ->  says ==> pincers
+1494:    1  ->  says ==> so
+1495:    1  ->  scenes ==> seems
+1496:    1  ->  scent ==> ascent
+1497:    1  ->  scent ==> sound
+1498:    1  ->  scheldt ==> shell
+1499:    1  ->  schmidt ==> shimerda
+1500:    1  ->  scullion's ==> yundt
+1501:    1  ->  sea ==> see
+1502:    1  ->  sean ==> valjean
+1503:    1  ->  seats ==> seat
+1504:    1  ->  second ==> second's
+1505:    1  ->  securer ==> secure
+1506:    1  ->  sed ==> tyrants
+1507:    1  ->  see ==> to
+1508:    1  ->  seem ==> seemed
+1509:    1  ->  seem ==> seen
+1510:    1  ->  seemed ==> seem
+1511:    1  ->  seemed ==> seems
+1512:    1  ->  seems ==> seem
+1513:    1  ->  seen ==> blazing
+1514:    1  ->  selves ==> themselves
+1515:    1  ->  sen ==> say
+1516:    1  ->  sense ==> assent
+1517:    1  ->  sensua ==> accentuated
+1518:    1  ->  serve ==> served
+1519:    1  ->  ses ==> says
+1520:    1  ->  set ==> said
+1521:    1  ->  set ==> sat
+1522:    1  ->  set ==> sent
+1523:    1  ->  settle ==> settled
+1524:    1  ->  shall ==> show
+1525:    1  ->  shambler ==> chandler
+1526:    1  ->  shape ==> she
+1527:    1  ->  shaun ==> jean
+1528:    1  ->  shaun ==> valjean
+1529:    1  ->  she ==> gather
+1530:    1  ->  she ==> quinci
+1531:    1  ->  she ==> worked
+1532:    1  ->  she ==> you
+1533:    1  ->  sheep ==> virtue
+1534:    1  ->  shifting ==> in
+1535:    1  ->  ship ==> of
+1536:    1  ->  shirley ==> we
+1537:    1  ->  shonnin ==> and
+1538:    1  ->  shore ==> were
+1539:    1  ->  shorn ==> sure
+1540:    1  ->  shorter ==> to
+1541:    1  ->  shortness ==> a
+1542:    1  ->  should ==> shall
+1543:    1  ->  show ==> shew
+1544:    1  ->  shows ==> shoes
+1545:    1  ->  shuns ==> martians
+1546:    1  ->  shuster ==> shasta
+1547:    1  ->  shut ==> shot
+1548:    1  ->  sickleton ==> simpleton
+1549:    1  ->  side ==> aside
+1550:    1  ->  side ==> outside
+1551:    1  ->  sidney ==> sydney
+1552:    1  ->  sigh ==> verloc's
+1553:    1  ->  sight ==> insight
+1554:    1  ->  sile ==> docile
+1555:    1  ->  sin ==> soon
+1556:    1  ->  sin ==> ursus
+1557:    1  ->  sing ==> debasing
+1558:    1  ->  sing ==> saint
+1559:    1  ->  sing ==> seeing
+1560:    1  ->  sit ==> person
+1561:    1  ->  sit ==> see
+1562:    1  ->  size ==> sighs
+1563:    1  ->  skill ==> skelly
+1564:    1  ->  skin ==> sin
+1565:    1  ->  skinned ==> are
+1566:    1  ->  sky ==> scar
+1567:    1  ->  slant ==> aslant
+1568:    1  ->  slape ==> slaked
+1569:    1  ->  sley ==> impetuously
+1570:    1  ->  sley ==> joyously
+1571:    1  ->  slice ==> life
+1572:    1  ->  slide ==> sledge
+1573:    1  ->  slightly ==> lightly
+1574:    1  ->  slip ==> lip
+1575:    1  ->  slowly ==> absolutely
+1576:    1  ->  snider ==> nager
+1577:    1  ->  snout ==> now
+1578:    1  ->  snuffles ==> sneffels
+1579:    1  ->  so ==> gulfs
+1580:    1  ->  so ==> hansel
+1581:    1  ->  so ==> irish
+1582:    1  ->  so ==> something
+1583:    1  ->  so ==> sow
+1584:    1  ->  soarings ==> means
+1585:    1  ->  sob ==> saw
+1586:    1  ->  softness ==> sophists
+1587:    1  ->  sol ==> some
+1588:    1  ->  sold ==> so
+1589:    1  ->  sold ==> soul
+1590:    1  ->  sole ==> unsolved
+1591:    1  ->  solon ==> sole
+1592:    1  ->  somethin ==> close
+1593:    1  ->  son's ==> sun's
+1594:    1  ->  sons ==> suns
+1595:    1  ->  soon ==> in
+1596:    1  ->  sort ==> sword
+1597:    1  ->  soul ==> sole
+1598:    1  ->  sound ==> sap
+1599:    1  ->  southern ==> sudden
+1600:    1  ->  space ==> face
+1601:    1  ->  spaceforce ==> force
+1602:    1  ->  spake ==> thank
+1603:    1  ->  spared ==> third
+1604:    1  ->  spe ==> and
+1605:    1  ->  speedin ==> and
+1606:    1  ->  spend ==> to
+1607:    1  ->  spider ==> aspire
+1608:    1  ->  spite ==> out
+1609:    1  ->  splendor ==> splendour
+1610:    1  ->  spots ==> spouse
+1611:    1  ->  squire's ==> squires
+1612:    1  ->  stairs ==> upstairs
+1613:    1  ->  stan ==> stand
+1614:    1  ->  star ==> astir
+1615:    1  ->  stay ==> to
+1616:    1  ->  steenie ==> steamy
+1617:    1  ->  still ==> so
+1618:    1  ->  stirring ==> during
+1619:    1  ->  stock ==> stopped
+1620:    1  ->  stooped ==> drooped
+1621:    1  ->  straight ==> strike
+1622:    1  ->  strain ==> restrained
+1623:    1  ->  streams ==> dreams
+1624:    1  ->  stupified ==> stupefied
+1625:    1  ->  suard ==> sward
+1626:    1  ->  sublime ==> i
+1627:    1  ->  subpoena ==> proserpina
+1628:    1  ->  succeeded ==> succeed
+1629:    1  ->  sundays ==> sunday
+1630:    1  ->  sunk ==> to
+1631:    1  ->  sunny ==> he
+1632:    1  ->  surer ==> sure
+1633:    1  ->  swallow ==> swallowed
+1634:    1  ->  swine's ==> swellings
+1635:    1  ->  takes ==> you'll
+1636:    1  ->  talked ==> took
+1637:    1  ->  talkin ==> talking
+1638:    1  ->  tall ==> dost
+1639:    1  ->  tanning ==> standing
+1640:    1  ->  tarara ==> tara
+1641:    1  ->  tattoo ==> cabin
+1642:    1  ->  te ==> gouty
+1643:    1  ->  tea ==> cruelty
+1644:    1  ->  tea ==> deed
+1645:    1  ->  teaches ==> us
+1646:    1  ->  tear ==> i
+1647:    1  ->  teares ==> tears
+1648:    1  ->  tearing ==> carrying
+1649:    1  ->  teas ==> pinkies
+1650:    1  ->  teaspoon ==> spoon
+1651:    1  ->  teaspoon ==> teaspoonful
+1652:    1  ->  techy ==> kentucky
+1653:    1  ->  teed ==> t
+1654:    1  ->  teeters ==> muleteers
+1655:    1  ->  tell ==> are
+1656:    1  ->  tell ==> detail
+1657:    1  ->  tell ==> jean
+1658:    1  ->  tent ==> tint
+1659:    1  ->  ter ==> seemed
+1660:    1  ->  termed ==> time
+1661:    1  ->  tes ==> commotions
+1662:    1  ->  tess ==> contestants
+1663:    1  ->  tess ==> untruss
+1664:    1  ->  than ==> an
+1665:    1  ->  than ==> but
+1666:    1  ->  than ==> lamp
+1667:    1  ->  than ==> then
+1668:    1  ->  than ==> turns
+1669:    1  ->  that ==> amazed
+1670:    1  ->  that ==> an
+1671:    1  ->  that ==> and
+1672:    1  ->  that ==> bewildered
+1673:    1  ->  that ==> cosette
+1674:    1  ->  that ==> day
+1675:    1  ->  that ==> dene
+1676:    1  ->  that ==> every
+1677:    1  ->  that ==> get
+1678:    1  ->  that ==> his
+1679:    1  ->  that ==> in
+1680:    1  ->  that ==> it's
+1681:    1  ->  that ==> its
+1682:    1  ->  that ==> like
+1683:    1  ->  that ==> lip
+1684:    1  ->  that ==> not
+1685:    1  ->  that ==> of
+1686:    1  ->  that ==> off
+1687:    1  ->  that ==> one
+1688:    1  ->  that ==> orbit
+1689:    1  ->  that ==> their
+1690:    1  ->  that ==> then
+1691:    1  ->  that ==> they
+1692:    1  ->  that ==> think
+1693:    1  ->  that's ==> that
+1694:    1  ->  the ==> any
+1695:    1  ->  the ==> as
+1696:    1  ->  the ==> at
+1697:    1  ->  the ==> darfhulva
+1698:    1  ->  the ==> domed
+1699:    1  ->  the ==> dude
+1700:    1  ->  the ==> each
+1701:    1  ->  the ==> he
+1702:    1  ->  the ==> irolg
+1703:    1  ->  the ==> it
+1704:    1  ->  the ==> jim
+1705:    1  ->  the ==> logs
+1706:    1  ->  the ==> loved
+1707:    1  ->  the ==> no
+1708:    1  ->  the ==> of
+1709:    1  ->  the ==> or
+1710:    1  ->  the ==> shimerda
+1711:    1  ->  the ==> stands
+1712:    1  ->  the ==> their
+1713:    1  ->  the ==> these
+1714:    1  ->  the ==> they
+1715:    1  ->  the ==> took
+1716:    1  ->  the ==> window
+1717:    1  ->  thee ==> partly
+1718:    1  ->  thee ==> presty
+1719:    1  ->  their ==> are
+1720:    1  ->  their ==> i
+1721:    1  ->  their ==> the
+1722:    1  ->  their ==> there
+1723:    1  ->  their ==> were
+1724:    1  ->  theirs ==> the
+1725:    1  ->  them ==> em
+1726:    1  ->  them ==> him
+1727:    1  ->  them ==> in
+1728:    1  ->  then ==> been
+1729:    1  ->  then ==> in
+1730:    1  ->  then ==> the
+1731:    1  ->  then ==> them
+1732:    1  ->  thence ==> residences
+1733:    1  ->  thence ==> then
+1734:    1  ->  there ==> are
+1735:    1  ->  there ==> either
+1736:    1  ->  there ==> further
+1737:    1  ->  there ==> here
+1738:    1  ->  there ==> inured
+1739:    1  ->  there ==> nourishing
+1740:    1  ->  there ==> their
+1741:    1  ->  there ==> they
+1742:    1  ->  there ==> they're
+1743:    1  ->  there ==> though
+1744:    1  ->  there ==> thunder
+1745:    1  ->  there'd ==> had
+1746:    1  ->  there's ==> an
+1747:    1  ->  there's ==> their
+1748:    1  ->  these ==> anxieties
+1749:    1  ->  these ==> his
+1750:    1  ->  they ==> be
+1751:    1  ->  they ==> it
+1752:    1  ->  they ==> salvation
+1753:    1  ->  they ==> that
+1754:    1  ->  they ==> the
+1755:    1  ->  they ==> there
+1756:    1  ->  thicken ==> thick
+1757:    1  ->  thing ==> anything
+1758:    1  ->  thinks ==> an
+1759:    1  ->  this ==> fifth
+1760:    1  ->  this ==> his
+1761:    1  ->  this ==> is
+1762:    1  ->  this ==> misfortune
+1763:    1  ->  this ==> the
+1764:    1  ->  those ==> ruggedo's
+1765:    1  ->  thou ==> would
+1766:    1  ->  though ==> nor
+1767:    1  ->  though ==> ruggedo
+1768:    1  ->  though ==> toil
+1769:    1  ->  thought ==> followed
+1770:    1  ->  thow ==> thou
+1771:    1  ->  three ==> for
+1772:    1  ->  thresholds ==> threshold
+1773:    1  ->  through ==> both
+1774:    1  ->  through ==> threw
+1775:    1  ->  thus ==> he
+1776:    1  ->  thus ==> now
+1777:    1  ->  thus ==> us
+1778:    1  ->  tia ==> bestia
+1779:    1  ->  ticket ==> a
+1780:    1  ->  tied ==> tide
+1781:    1  ->  tiera ==> dear
+1782:    1  ->  tierce ==> tears
+1783:    1  ->  tiers ==> tears
+1784:    1  ->  tilda ==> hilda
+1785:    1  ->  till ==> until
+1786:    1  ->  tilly ==> they
+1787:    1  ->  tips ==> syrtis
+1788:    1  ->  title ==> tight
+1789:    1  ->  to ==> a
+1790:    1  ->  to ==> and
+1791:    1  ->  to ==> answered
+1792:    1  ->  to ==> attentive
+1793:    1  ->  to ==> did
+1794:    1  ->  to ==> doesn't
+1795:    1  ->  to ==> flowed
+1796:    1  ->  to ==> held
+1797:    1  ->  to ==> him
+1798:    1  ->  to ==> mister
+1799:    1  ->  to ==> ridicule
+1800:    1  ->  to ==> telephoned
+1801:    1  ->  to ==> there
+1802:    1  ->  to ==> they
+1803:    1  ->  to ==> thrust
+1804:    1  ->  to ==> took
+1805:    1  ->  to ==> unto
+1806:    1  ->  to ==> who
+1807:    1  ->  to ==> would
+1808:    1  ->  toady's ==> tony's
+1809:    1  ->  today ==> day
+1810:    1  ->  together ==> altogether
+1811:    1  ->  tokai ==> got
+1812:    1  ->  toll ==> tolled
+1813:    1  ->  tollar ==> centaur
+1814:    1  ->  tonight ==> night
+1815:    1  ->  too ==> do
+1816:    1  ->  too ==> tube
+1817:    1  ->  tooth ==> too
+1818:    1  ->  topsy ==> to
+1819:    1  ->  tor ==> tourmaline
+1820:    1  ->  torrid ==> stored
+1821:    1  ->  touch ==> touched
+1822:    1  ->  tough ==> enough
+1823:    1  ->  tour ==> of
+1824:    1  ->  toward ==> lower
+1825:    1  ->  toward ==> our
+1826:    1  ->  towel ==> cow
+1827:    1  ->  tr ==> tell
+1828:    1  ->  trait ==> now
+1829:    1  ->  tram ==> trim
+1830:    1  ->  trant ==> trampe
+1831:    1  ->  traps ==> trot's
+1832:    1  ->  travel ==> tremble
+1833:    1  ->  travelled ==> traveled
+1834:    1  ->  tray ==> tree
+1835:    1  ->  tread ==> dread
+1836:    1  ->  treason ==> tracing
+1837:    1  ->  treating ==> retreating
+1838:    1  ->  tree ==> between
+1839:    1  ->  trimmed ==> uncle
+1840:    1  ->  trusting ==> untrussing
+1841:    1  ->  trying ==> drying
+1842:    1  ->  turn ==> turned
+1843:    1  ->  turned ==> returned
+1844:    1  ->  turned ==> turn
+1845:    1  ->  twain ==> between
+1846:    1  ->  twist ==> with
+1847:    1  ->  two ==> to
+1848:    1  ->  two ==> too
+1849:    1  ->  twould ==> a
+1850:    1  ->  tylo ==> tahoe
+1851:    1  ->  tyrannize ==> tyrannise
+1852:    1  ->  uch ==> a
+1853:    1  ->  uh ==> asura
+1854:    1  ->  umble ==> bird
+1855:    1  ->  unburden ==> and
+1856:    1  ->  unfavorable ==> unfavourable
+1857:    1  ->  unheard ==> unhurried
+1858:    1  ->  unimpulsive ==> impulsive
+1859:    1  ->  unless ==> looks
+1860:    1  ->  until ==> and
+1861:    1  ->  until ==> tell
+1862:    1  ->  untwisted ==> twisted
+1863:    1  ->  up ==> about
+1864:    1  ->  up ==> khosala
+1865:    1  ->  up ==> look
+1866:    1  ->  up ==> out
+1867:    1  ->  up ==> trauma
+1868:    1  ->  upon ==> on
+1869:    1  ->  upper ==> a
+1870:    1  ->  uprose ==> what
+1871:    1  ->  urn ==> an
+1872:    1  ->  us ==> those
+1873:    1  ->  use ==> ewes
+1874:    1  ->  use ==> refuse
+1875:    1  ->  vacant ==> and
+1876:    1  ->  vain ==> vein
+1877:    1  ->  vast ==> best
+1878:    1  ->  vault ==> volatile
+1879:    1  ->  veiny ==> veni
+1880:    1  ->  vend ==> and
+1881:    1  ->  venus ==> vinos
+1882:    1  ->  veranda ==> verandah
+1883:    1  ->  very ==> the
+1884:    1  ->  vestured ==> sudvestr
+1885:    1  ->  vigor ==> vigour
+1886:    1  ->  wada ==> the
+1887:    1  ->  waiter ==> through
+1888:    1  ->  walad ==> of
+1889:    1  ->  waldheim ==> valjean
+1890:    1  ->  walks ==> walked
+1891:    1  ->  wall ==> while
+1892:    1  ->  wand ==> while
+1893:    1  ->  war ==> roar
+1894:    1  ->  wars ==> oars
+1895:    1  ->  warter ==> order
+1896:    1  ->  was ==> always
+1897:    1  ->  was ==> its
+1898:    1  ->  was ==> much
+1899:    1  ->  was ==> must
+1900:    1  ->  was ==> we'll
+1901:    1  ->  was ==> who's
+1902:    1  ->  way ==> away
+1903:    1  ->  way ==> highway
+1904:    1  ->  way ==> wave
+1905:    1  ->  waylay ==> laid
+1906:    1  ->  wayne's ==> macklewain's
+1907:    1  ->  we ==> only
+1908:    1  ->  we'd ==> had
+1909:    1  ->  we're ==> are
+1910:    1  ->  wean ==> waned
+1911:    1  ->  weather ==> whether
+1912:    1  ->  week ==> awake
+1913:    1  ->  weighty ==> away
+1914:    1  ->  weissmann ==> men
+1915:    1  ->  well ==> halley
+1916:    1  ->  well ==> soil
+1917:    1  ->  went ==> have
+1918:    1  ->  were ==> are
+1919:    1  ->  were ==> error
+1920:    1  ->  were ==> on
+1921:    1  ->  were ==> onward
+1922:    1  ->  were ==> or
+1923:    1  ->  were ==> throne
+1924:    1  ->  were ==> whirr
+1925:    1  ->  west ==> last
+1926:    1  ->  west ==> southwest
+1927:    1  ->  whale ==> will
+1928:    1  ->  whar ==> or
+1929:    1  ->  what ==> it
+1930:    1  ->  what ==> miss
+1931:    1  ->  what ==> no
+1932:    1  ->  what ==> what's
+1933:    1  ->  what ==> when
+1934:    1  ->  what ==> with
+1935:    1  ->  what're ==> are
+1936:    1  ->  what's ==> what
+1937:    1  ->  whelmed ==> whelm
+1938:    1  ->  when ==> and
+1939:    1  ->  when ==> one
+1940:    1  ->  when ==> ran
+1941:    1  ->  when ==> to
+1942:    1  ->  when ==> want
+1943:    1  ->  when ==> would
+1944:    1  ->  whenever ==> whatever
+1945:    1  ->  where ==> alder
+1946:    1  ->  where ==> had
+1947:    1  ->  which ==> witch
+1948:    1  ->  which ==> would
+1949:    1  ->  while ==> awhile
+1950:    1  ->  while ==> o
+1951:    1  ->  while ==> turmoil
+1952:    1  ->  whine ==> why
+1953:    1  ->  whining ==> one
+1954:    1  ->  whining ==> winding
+1955:    1  ->  whirred ==> or
+1956:    1  ->  who ==> do
+1957:    1  ->  who ==> epilobium
+1958:    1  ->  who've ==> have
+1959:    1  ->  whole ==> hole
+1960:    1  ->  wholly ==> totally
+1961:    1  ->  whom ==> whose
+1962:    1  ->  whose ==> is
+1963:    1  ->  why ==> like
+1964:    1  ->  wildly ==> mildly
+1965:    1  ->  wiles ==> wilds
+1966:    1  ->  will ==> a
+1967:    1  ->  will ==> schools
+1968:    1  ->  windows ==> as
+1969:    1  ->  wine ==> macklewain
+1970:    1  ->  wishin ==> shouldn't
+1971:    1  ->  witched ==> which
+1972:    1  ->  with ==> a
+1973:    1  ->  with ==> but
+1974:    1  ->  with ==> into
+1975:    1  ->  with ==> the
+1976:    1  ->  with ==> what's
+1977:    1  ->  with ==> when
+1978:    1  ->  withstanding ==> notwithstanding
+1979:    1  ->  won't ==> thrown
+1980:    1  ->  won't ==> would
+1981:    1  ->  wood ==> it
+1982:    1  ->  woodie ==> you
+1983:    1  ->  woodson ==> in
+1984:    1  ->  woolley ==> woolly
+1985:    1  ->  word ==> downward
+1986:    1  ->  word ==> edward
+1987:    1  ->  word ==> it
+1988:    1  ->  word ==> northwestward
+1989:    1  ->  word ==> were
+1990:    1  ->  wore ==> or
+1991:    1  ->  work ==> of
+1992:    1  ->  world ==> or
+1993:    1  ->  worry ==> he
+1994:    1  ->  worst ==> difficulty
+1995:    1  ->  worth ==> wert
+1996:    1  ->  worthy ==> unworthy
+1997:    1  ->  would ==> had
+1998:    1  ->  would've ==> have
+1999:    1  ->  wouldst ==> have
+2000:    1  ->  wrath ==> rath
+2001:    1  ->  wronged ==> wrong
+2002:    1  ->  ye ==> you
+2003:    1  ->  ye'll ==> yulka
+2004:    1  ->  ye've ==> you've
+2005:    1  ->  year ==> ear
+2006:    1  ->  yet ==> the
+2007:    1  ->  yews ==> ewes
+2008:    1  ->  you ==> deucalion
+2009:    1  ->  you ==> myrdals
+2010:    1  ->  you ==> to
+2011:    1  ->  you ==> too
+2012:    1  ->  you ==> we
+2013:    1  ->  you ==> what
+2014:    1  ->  you ==> who
+2015:    1  ->  you ==> you'll
+2016:    1  ->  you ==> you're
+2017:    1  ->  you'd ==> that
+2018:    1  ->  you'll ==> will
+2019:    1  ->  you're ==> you
+2020:    1  ->  your ==> a
+2021:    1  ->  your ==> are
+2022:    1  ->  your ==> nearer
+2023:    1  ->  ze ==> these
+2024:    1  ->  ze ==> you
+2025:    1  ->  zest ==> us
+2026:    1  ->  zinc ==> saint
+     -------
+      2343
+
+
+
+INSERTIONS                       Total                 (159)
+                                 With >=  1 occurrences (159)
+
+   1:   12  ->  a
+   2:   11  ->  to
+   3:   11  ->  you
+   4:   10  ->  and
+   5:   10  ->  the
+   6:    9  ->  in
+   7:    8  ->  i
+   8:    8  ->  we
+   9:    7  ->  he
+  10:    7  ->  it
+  11:    5  ->  of
+  12:    5  ->  there
+  13:    5  ->  who
+  14:    4  ->  on
+  15:    4  ->  so
+  16:    4  ->  they
+  17:    3  ->  are
+  18:    3  ->  get
+  19:    3  ->  then
+  20:    2  ->  am
+  21:    2  ->  any
+  22:    2  ->  big
+  23:    2  ->  do
+  24:    2  ->  for
+  25:    2  ->  full
+  26:    2  ->  have
+  27:    2  ->  i'll
+  28:    2  ->  if
+  29:    2  ->  mc
+  30:    2  ->  now
+  31:    2  ->  put
+  32:    2  ->  that
+  33:    2  ->  this
+  34:    2  ->  way
+  35:    2  ->  what
+  36:    2  ->  would
+  37:    1  ->  across
+  38:    1  ->  administrator
+  39:    1  ->  all
+  40:    1  ->  ambrosch
+  41:    1  ->  an
+  42:    1  ->  aren't
+  43:    1  ->  as
+  44:    1  ->  ask
+  45:    1  ->  be
+  46:    1  ->  bend
+  47:    1  ->  blush
+  48:    1  ->  bottle
+  49:    1  ->  brion
+  50:    1  ->  but
+  51:    1  ->  by
+  52:    1  ->  call
+  53:    1  ->  came
+  54:    1  ->  can
+  55:    1  ->  can't
+  56:    1  ->  care
+  57:    1  ->  coffee
+  58:    1  ->  criss
+  59:    1  ->  dole
+  60:    1  ->  dozen
+  61:    1  ->  drinks
+  62:    1  ->  dull
+  63:    1  ->  enlist
+  64:    1  ->  every
+  65:    1  ->  face
+  66:    1  ->  fat
+  67:    1  ->  flogging
+  68:    1  ->  forests
+  69:    1  ->  forward
+  70:    1  ->  fully
+  71:    1  ->  gas
+  72:    1  ->  going
+  73:    1  ->  good
+  74:    1  ->  gorge
+  75:    1  ->  grave
+  76:    1  ->  guard
+  77:    1  ->  had
+  78:    1  ->  half
+  79:    1  ->  has
+  80:    1  ->  hear
+  81:    1  ->  here
+  82:    1  ->  him
+  83:    1  ->  holds
+  84:    1  ->  hood
+  85:    1  ->  housed
+  86:    1  ->  how
+  87:    1  ->  i'm
+  88:    1  ->  irolg
+  89:    1  ->  is
+  90:    1  ->  jaws
+  91:    1  ->  jim
+  92:    1  ->  just
+  93:    1  ->  know
+  94:    1  ->  ladder
+  95:    1  ->  leaving
+  96:    1  ->  left
+  97:    1  ->  let
+  98:    1  ->  little
+  99:    1  ->  lo
+ 100:    1  ->  make
+ 101:    1  ->  married
+ 102:    1  ->  mean
+ 103:    1  ->  men's
+ 104:    1  ->  mere
+ 105:    1  ->  might
+ 106:    1  ->  mister
+ 107:    1  ->  must
+ 108:    1  ->  my
+ 109:    1  ->  no
+ 110:    1  ->  nor
+ 111:    1  ->  not
+ 112:    1  ->  nut
+ 113:    1  ->  off
+ 114:    1  ->  oh
+ 115:    1  ->  old
+ 116:    1  ->  one
+ 117:    1  ->  opportunities
+ 118:    1  ->  or
+ 119:    1  ->  our
+ 120:    1  ->  place
+ 121:    1  ->  pop
+ 122:    1  ->  pretty
+ 123:    1  ->  reappear
+ 124:    1  ->  recognise
+ 125:    1  ->  rode
+ 126:    1  ->  room
+ 127:    1  ->  say
+ 128:    1  ->  seeing
+ 129:    1  ->  she'd
+ 130:    1  ->  sheet
+ 131:    1  ->  shift
+ 132:    1  ->  short
+ 133:    1  ->  should
+ 134:    1  ->  slung
+ 135:    1  ->  snapping
+ 136:    1  ->  sorry
+ 137:    1  ->  space
+ 138:    1  ->  state
+ 139:    1  ->  sure
+ 140:    1  ->  tea
+ 141:    1  ->  teach
+ 142:    1  ->  ten
+ 143:    1  ->  they're
+ 144:    1  ->  till
+ 145:    1  ->  two
+ 146:    1  ->  up
+ 147:    1  ->  upper
+ 148:    1  ->  vague
+ 149:    1  ->  went
+ 150:    1  ->  what's
+ 151:    1  ->  where
+ 152:    1  ->  while
+ 153:    1  ->  who's
+ 154:    1  ->  will
+ 155:    1  ->  wise
+ 156:    1  ->  with
+ 157:    1  ->  without
+ 158:    1  ->  worse
+ 159:    1  ->  you're
+     -------
+       286
+
+
+
+DELETIONS                        Total                 (327)
+                                 With >=  1 occurrences (327)
+
+   1:   31  ->  a
+   2:   18  ->  the
+   3:   16  ->  it
+   4:   15  ->  of
+   5:   12  ->  and
+   6:   12  ->  to
+   7:   11  ->  all
+   8:   10  ->  in
+   9:    8  ->  on
+  10:    6  ->  at
+  11:    6  ->  when
+  12:    5  ->  i
+  13:    4  ->  don't
+  14:    4  ->  for
+  15:    4  ->  had
+  16:    4  ->  he
+  17:    4  ->  her
+  18:    4  ->  that
+  19:    3  ->  antony
+  20:    3  ->  be
+  21:    3  ->  if
+  22:    3  ->  known
+  23:    3  ->  mac
+  24:    3  ->  o
+  25:    3  ->  or
+  26:    3  ->  son
+  27:    3  ->  them
+  28:    3  ->  there
+  29:    3  ->  this
+  30:    3  ->  was
+  31:    3  ->  were
+  32:    2  ->  an
+  33:    2  ->  are
+  34:    2  ->  aunt
+  35:    2  ->  but
+  36:    2  ->  by
+  37:    2  ->  can
+  38:    2  ->  common
+  39:    2  ->  de
+  40:    2  ->  e
+  41:    2  ->  fall
+  42:    2  ->  glen
+  43:    2  ->  gold
+  44:    2  ->  high
+  45:    2  ->  how
+  46:    2  ->  i'm
+  47:    2  ->  maid
+  48:    2  ->  make
+  49:    2  ->  may
+  50:    2  ->  meek
+  51:    2  ->  mist
+  52:    2  ->  my
+  53:    2  ->  no
+  54:    2  ->  old
+  55:    2  ->  out
+  56:    2  ->  pink
+  57:    2  ->  press
+  58:    2  ->  s
+  59:    2  ->  sea
+  60:    2  ->  south
+  61:    2  ->  stay
+  62:    2  ->  than
+  63:    2  ->  they
+  64:    2  ->  up
+  65:    2  ->  we
+  66:    2  ->  what
+  67:    2  ->  who
+  68:    2  ->  you're
+  69:    2  ->  your
+  70:    1  ->  added
+  71:    1  ->  afric
+  72:    1  ->  alter
+  73:    1  ->  amiss
+  74:    1  ->  amount
+  75:    1  ->  army
+  76:    1  ->  as
+  77:    1  ->  asian
+  78:    1  ->  asked
+  79:    1  ->  assure
+  80:    1  ->  ay
+  81:    1  ->  back
+  82:    1  ->  baked
+  83:    1  ->  band
+  84:    1  ->  bed
+  85:    1  ->  beery
+  86:    1  ->  beg
+  87:    1  ->  below
+  88:    1  ->  bend
+  89:    1  ->  benny
+  90:    1  ->  bent
+  91:    1  ->  berta
+  92:    1  ->  biddable
+  93:    1  ->  big
+  94:    1  ->  bill
+  95:    1  ->  bird
+  96:    1  ->  blow
+  97:    1  ->  blue
+  98:    1  ->  bold
+  99:    1  ->  boone
+ 100:    1  ->  bought
+ 101:    1  ->  bray
+ 102:    1  ->  bright
+ 103:    1  ->  bull
+ 104:    1  ->  buzz
+ 105:    1  ->  c
+ 106:    1  ->  caere
+ 107:    1  ->  callous
+ 108:    1  ->  cast
+ 109:    1  ->  cell
+ 110:    1  ->  celt
+ 111:    1  ->  center
+ 112:    1  ->  chiel
+ 113:    1  ->  cits
+ 114:    1  ->  clo
+ 115:    1  ->  cloddy
+ 116:    1  ->  close
+ 117:    1  ->  come
+ 118:    1  ->  commotion
+ 119:    1  ->  content
+ 120:    1  ->  contest
+ 121:    1  ->  contrast
+ 122:    1  ->  corn
+ 123:    1  ->  cullen
+ 124:    1  ->  curing
+ 125:    1  ->  curses
+ 126:    1  ->  curt
+ 127:    1  ->  curve
+ 128:    1  ->  cut
+ 129:    1  ->  d
+ 130:    1  ->  da
+ 131:    1  ->  dark
+ 132:    1  ->  das
+ 133:    1  ->  day
+ 134:    1  ->  dead
+ 135:    1  ->  defect
+ 136:    1  ->  defiant
+ 137:    1  ->  deft
+ 138:    1  ->  delate
+ 139:    1  ->  devour
+ 140:    1  ->  did
+ 141:    1  ->  dozen
+ 142:    1  ->  draw
+ 143:    1  ->  drills
+ 144:    1  ->  dug
+ 145:    1  ->  ee
+ 146:    1  ->  eet
+ 147:    1  ->  ellen
+ 148:    1  ->  em
+ 149:    1  ->  end
+ 150:    1  ->  error
+ 151:    1  ->  every
+ 152:    1  ->  eye
+ 153:    1  ->  faith
+ 154:    1  ->  false
+ 155:    1  ->  fame
+ 156:    1  ->  far
+ 157:    1  ->  feel
+ 158:    1  ->  fetch
+ 159:    1  ->  feverish
+ 160:    1  ->  figure
+ 161:    1  ->  fine
+ 162:    1  ->  finger
+ 163:    1  ->  float
+ 164:    1  ->  fold
+ 165:    1  ->  fool
+ 166:    1  ->  foot
+ 167:    1  ->  g
+ 168:    1  ->  gar
+ 169:    1  ->  go
+ 170:    1  ->  goes
+ 171:    1  ->  good
+ 172:    1  ->  gulf
+ 173:    1  ->  hair
+ 174:    1  ->  hall
+ 175:    1  ->  halls
+ 176:    1  ->  hands
+ 177:    1  ->  hanger
+ 178:    1  ->  harald
+ 179:    1  ->  has
+ 180:    1  ->  have
+ 181:    1  ->  head
+ 182:    1  ->  hee
+ 183:    1  ->  helder
+ 184:    1  ->  hez
+ 185:    1  ->  hi
+ 186:    1  ->  hind
+ 187:    1  ->  home
+ 188:    1  ->  hot
+ 189:    1  ->  howland
+ 190:    1  ->  i'd
+ 191:    1  ->  idols
+ 192:    1  ->  impulse
+ 193:    1  ->  inn
+ 194:    1  ->  into
+ 195:    1  ->  is
+ 196:    1  ->  ix
+ 197:    1  ->  john
+ 198:    1  ->  joy
+ 199:    1  ->  kept
+ 200:    1  ->  key
+ 201:    1  ->  kill
+ 202:    1  ->  labor
+ 203:    1  ->  language
+ 204:    1  ->  large
+ 205:    1  ->  lawless
+ 206:    1  ->  load
+ 207:    1  ->  locks
+ 208:    1  ->  loft
+ 209:    1  ->  loom
+ 210:    1  ->  love
+ 211:    1  ->  low
+ 212:    1  ->  m
+ 213:    1  ->  machal
+ 214:    1  ->  macko
+ 215:    1  ->  made
+ 216:    1  ->  maker
+ 217:    1  ->  malta
+ 218:    1  ->  man
+ 219:    1  ->  many
+ 220:    1  ->  matter
+ 221:    1  ->  merit
+ 222:    1  ->  met
+ 223:    1  ->  mild
+ 224:    1  ->  miss
+ 225:    1  ->  mme
+ 226:    1  ->  most
+ 227:    1  ->  moulds
+ 228:    1  ->  ms
+ 229:    1  ->  mule
+ 230:    1  ->  muller
+ 231:    1  ->  news
+ 232:    1  ->  north
+ 233:    1  ->  not
+ 234:    1  ->  noun
+ 235:    1  ->  now
+ 236:    1  ->  oak
+ 237:    1  ->  ob
+ 238:    1  ->  off
+ 239:    1  ->  oh
+ 240:    1  ->  ome
+ 241:    1  ->  op
+ 242:    1  ->  opal
+ 243:    1  ->  over
+ 244:    1  ->  paint
+ 245:    1  ->  pall
+ 246:    1  ->  pea
+ 247:    1  ->  pere
+ 248:    1  ->  perpetua
+ 249:    1  ->  petra
+ 250:    1  ->  plenty
+ 251:    1  ->  pomp
+ 252:    1  ->  pons
+ 253:    1  ->  prize
+ 254:    1  ->  pulled
+ 255:    1  ->  pullet
+ 256:    1  ->  quays
+ 257:    1  ->  queen
+ 258:    1  ->  radio
+ 259:    1  ->  raymond
+ 260:    1  ->  read
+ 261:    1  ->  reef
+ 262:    1  ->  residence
+ 263:    1  ->  room
+ 264:    1  ->  ruddy
+ 265:    1  ->  ruth
+ 266:    1  ->  rye
+ 267:    1  ->  said
+ 268:    1  ->  sated
+ 269:    1  ->  savage
+ 270:    1  ->  sch
+ 271:    1  ->  schamir
+ 272:    1  ->  seem
+ 273:    1  ->  seen
+ 274:    1  ->  send
+ 275:    1  ->  sh
+ 276:    1  ->  shall
+ 277:    1  ->  sheep
+ 278:    1  ->  shiny
+ 279:    1  ->  should
+ 280:    1  ->  sid
+ 281:    1  ->  side
+ 282:    1  ->  sits
+ 283:    1  ->  sloped
+ 284:    1  ->  snared
+ 285:    1  ->  sniff
+ 286:    1  ->  sock
+ 287:    1  ->  speak
+ 288:    1  ->  station
+ 289:    1  ->  stick
+ 290:    1  ->  store
+ 291:    1  ->  sure
+ 292:    1  ->  takes
+ 293:    1  ->  tao
+ 294:    1  ->  tar
+ 295:    1  ->  tattine's
+ 296:    1  ->  telephone
+ 297:    1  ->  tell
+ 298:    1  ->  telson
+ 299:    1  ->  ten
+ 300:    1  ->  tennis
+ 301:    1  ->  tenor
+ 302:    1  ->  third
+ 303:    1  ->  thread
+ 304:    1  ->  thresh
+ 305:    1  ->  time
+ 306:    1  ->  too
+ 307:    1  ->  torm
+ 308:    1  ->  turn
+ 309:    1  ->  two
+ 310:    1  ->  tyrant
+ 311:    1  ->  um
+ 312:    1  ->  un
+ 313:    1  ->  unmarred
+ 314:    1  ->  us
+ 315:    1  ->  vault
+ 316:    1  ->  ver
+ 317:    1  ->  vilely
+ 318:    1  ->  west
+ 319:    1  ->  where
+ 320:    1  ->  whip
+ 321:    1  ->  whither
+ 322:    1  ->  why
+ 323:    1  ->  woe
+ 324:    1  ->  wretched
+ 325:    1  ->  yes
+ 326:    1  ->  you
+ 327:    1  ->  you'll
+     -------
+       547
+
+
+
+SUBSTITUTIONS                    Total                 (1395)
+                                 With >=  1 occurrences (1395)
+
+   1:   69  ->  a
+   2:   69  ->  and
+   3:   67  ->  the
+   4:   39  ->  in
+   5:   37  ->  that
+   6:   31  ->  to
+   7:   30  ->  of
+   8:   28  ->  is
+   9:   27  ->  it
+  10:   14  ->  there
+  11:   14  ->  was
+  12:   13  ->  i
+  13:   12  ->  he
+  14:   12  ->  on
+  15:   11  ->  an
+  16:   11  ->  as
+  17:   11  ->  for
+  18:   11  ->  you
+  19:   10  ->  or
+  20:    9  ->  are
+  21:    9  ->  at
+  22:    9  ->  but
+  23:    9  ->  were
+  24:    8  ->  out
+  25:    8  ->  said
+  26:    8  ->  then
+  27:    8  ->  they
+  28:    8  ->  with
+  29:    7  ->  all
+  30:    7  ->  man
+  31:    7  ->  than
+  32:    6  ->  be
+  33:    6  ->  can
+  34:    6  ->  had
+  35:    6  ->  her
+  36:    6  ->  his
+  37:    6  ->  she
+  38:    6  ->  what
+  39:    6  ->  when
+  40:    5  ->  calico
+  41:    5  ->  have
+  42:    5  ->  if
+  43:    5  ->  like
+  44:    5  ->  my
+  45:    5  ->  not
+  46:    5  ->  so
+  47:    5  ->  their
+  48:    5  ->  this
+  49:    5  ->  too
+  50:    5  ->  up
+  51:    5  ->  word
+  52:    4  ->  day
+  53:    4  ->  down
+  54:    4  ->  fall
+  55:    4  ->  has
+  56:    4  ->  heart
+  57:    4  ->  him
+  58:    4  ->  i'm
+  59:    4  ->  into
+  60:    4  ->  know
+  61:    4  ->  me
+  62:    4  ->  now
+  63:    4  ->  pour
+  64:    4  ->  round
+  65:    4  ->  there's
+  66:    4  ->  toward
+  67:    4  ->  well
+  68:    4  ->  work
+  69:    4  ->  would
+  70:    4  ->  you're
+  71:    3  ->  ahead
+  72:    3  ->  b
+  73:    3  ->  ball
+  74:    3  ->  bed
+  75:    3  ->  did
+  76:    3  ->  dis
+  77:    3  ->  does
+  78:    3  ->  first
+  79:    3  ->  going
+  80:    3  ->  good
+  81:    3  ->  great
+  82:    3  ->  hands
+  83:    3  ->  hater
+  84:    3  ->  here
+  85:    3  ->  its
+  86:    3  ->  joe
+  87:    3  ->  latimer
+  88:    3  ->  lee
+  89:    3  ->  lying
+  90:    3  ->  o
+  91:    3  ->  own
+  92:    3  ->  part
+  93:    3  ->  peace
+  94:    3  ->  pie
+  95:    3  ->  pore
+  96:    3  ->  princes
+  97:    3  ->  read
+  98:    3  ->  red
+  99:    3  ->  rome
+ 100:    3  ->  sad
+ 101:    3  ->  set
+ 102:    3  ->  sing
+ 103:    3  ->  sprang
+ 104:    3  ->  tell
+ 105:    3  ->  terraced
+ 106:    3  ->  them
+ 107:    3  ->  though
+ 108:    3  ->  thus
+ 109:    3  ->  wall
+ 110:    3  ->  way
+ 111:    3  ->  while
+ 112:    3  ->  you've
+ 113:    3  ->  your
+ 114:    2  ->  air
+ 115:    2  ->  along
+ 116:    2  ->  antony
+ 117:    2  ->  any
+ 118:    2  ->  anyone
+ 119:    2  ->  around
+ 120:    2  ->  asa
+ 121:    2  ->  bank
+ 122:    2  ->  bare
+ 123:    2  ->  barley
+ 124:    2  ->  base
+ 125:    2  ->  been
+ 126:    2  ->  blaze
+ 127:    2  ->  boat
+ 128:    2  ->  bread
+ 129:    2  ->  brians
+ 130:    2  ->  brienne
+ 131:    2  ->  called
+ 132:    2  ->  callous
+ 133:    2  ->  cannot
+ 134:    2  ->  cast
+ 135:    2  ->  city
+ 136:    2  ->  come
+ 137:    2  ->  d
+ 138:    2  ->  dillon
+ 139:    2  ->  dried
+ 140:    2  ->  drop
+ 141:    2  ->  dust
+ 142:    2  ->  eighty
+ 143:    2  ->  elaine
+ 144:    2  ->  em
+ 145:    2  ->  enter
+ 146:    2  ->  face
+ 147:    2  ->  faced
+ 148:    2  ->  fell
+ 149:    2  ->  folks
+ 150:    2  ->  four
+ 151:    2  ->  from
+ 152:    2  ->  furry
+ 153:    2  ->  gathered
+ 154:    2  ->  gazette
+ 155:    2  ->  get
+ 156:    2  ->  glowed
+ 157:    2  ->  got
+ 158:    2  ->  hand
+ 159:    2  ->  hawful
+ 160:    2  ->  he's
+ 161:    2  ->  head
+ 162:    2  ->  hell
+ 163:    2  ->  hold
+ 164:    2  ->  house
+ 165:    2  ->  i'll
+ 166:    2  ->  john
+ 167:    2  ->  johnson
+ 168:    2  ->  king
+ 169:    2  ->  latter
+ 170:    2  ->  light
+ 171:    2  ->  lines
+ 172:    2  ->  listen
+ 173:    2  ->  looks
+ 174:    2  ->  lord
+ 175:    2  ->  m
+ 176:    2  ->  macleod
+ 177:    2  ->  made
+ 178:    2  ->  may
+ 179:    2  ->  meakin
+ 180:    2  ->  meal
+ 181:    2  ->  meeking
+ 182:    2  ->  merely
+ 183:    2  ->  mon
+ 184:    2  ->  motions
+ 185:    2  ->  need
+ 186:    2  ->  neighbours
+ 187:    2  ->  nell
+ 188:    2  ->  no
+ 189:    2  ->  norah
+ 190:    2  ->  noun
+ 191:    2  ->  numb
+ 192:    2  ->  o'tei
+ 193:    2  ->  old
+ 194:    2  ->  one
+ 195:    2  ->  ossip
+ 196:    2  ->  other
+ 197:    2  ->  our
+ 198:    2  ->  passed
+ 199:    2  ->  phoebe
+ 200:    2  ->  pinky's
+ 201:    2  ->  placed
+ 202:    2  ->  plan
+ 203:    2  ->  playing
+ 204:    2  ->  prove
+ 205:    2  ->  recognised
+ 206:    2  ->  rocks
+ 207:    2  ->  rose
+ 208:    2  ->  route
+ 209:    2  ->  s
+ 210:    2  ->  sat
+ 211:    2  ->  saved
+ 212:    2  ->  saying
+ 213:    2  ->  says
+ 214:    2  ->  scent
+ 215:    2  ->  seem
+ 216:    2  ->  seemed
+ 217:    2  ->  shaun
+ 218:    2  ->  she'd
+ 219:    2  ->  side
+ 220:    2  ->  sin
+ 221:    2  ->  sit
+ 222:    2  ->  sley
+ 223:    2  ->  sold
+ 224:    2  ->  tea
+ 225:    2  ->  teaspoon
+ 226:    2  ->  tess
+ 227:    2  ->  thee
+ 228:    2  ->  thence
+ 229:    2  ->  these
+ 230:    2  ->  through
+ 231:    2  ->  tomorrow
+ 232:    2  ->  top
+ 233:    2  ->  travelling
+ 234:    2  ->  turned
+ 235:    2  ->  two
+ 236:    2  ->  until
+ 237:    2  ->  use
+ 238:    2  ->  vapors
+ 239:    2  ->  we've
+ 240:    2  ->  west
+ 241:    2  ->  where
+ 242:    2  ->  which
+ 243:    2  ->  whining
+ 244:    2  ->  who
+ 245:    2  ->  will
+ 246:    2  ->  wind
+ 247:    2  ->  won't
+ 248:    2  ->  ze
+ 249:    1  ->  a's
+ 250:    1  ->  abel's
+ 251:    1  ->  ability
+ 252:    1  ->  abuses
+ 253:    1  ->  accent
+ 254:    1  ->  accidents
+ 255:    1  ->  acclamations
+ 256:    1  ->  across
+ 257:    1  ->  actions
+ 258:    1  ->  add
+ 259:    1  ->  administrative
+ 260:    1  ->  admired
+ 261:    1  ->  advance
+ 262:    1  ->  advantages
+ 263:    1  ->  aer
+ 264:    1  ->  aftah
+ 265:    1  ->  again
+ 266:    1  ->  agreed
+ 267:    1  ->  ah
+ 268:    1  ->  aig
+ 269:    1  ->  ain't
+ 270:    1  ->  airway
+ 271:    1  ->  alb
+ 272:    1  ->  alene
+ 273:    1  ->  alete
+ 274:    1  ->  alike
+ 275:    1  ->  aline
+ 276:    1  ->  alive
+ 277:    1  ->  alley
+ 278:    1  ->  alms
+ 279:    1  ->  alone
+ 280:    1  ->  alp
+ 281:    1  ->  ambled
+ 282:    1  ->  america
+ 283:    1  ->  amster
+ 284:    1  ->  amy
+ 285:    1  ->  an't
+ 286:    1  ->  annie
+ 287:    1  ->  anus
+ 288:    1  ->  anything
+ 289:    1  ->  ape
+ 290:    1  ->  apostle
+ 291:    1  ->  apostles
+ 292:    1  ->  appearance
+ 293:    1  ->  appointed
+ 294:    1  ->  arch
+ 295:    1  ->  ardor
+ 296:    1  ->  argy
+ 297:    1  ->  armed
+ 298:    1  ->  arna
+ 299:    1  ->  arranged
+ 300:    1  ->  arrayed
+ 301:    1  ->  artist's
+ 302:    1  ->  ascend
+ 303:    1  ->  ascribed
+ 304:    1  ->  ashore
+ 305:    1  ->  asked
+ 306:    1  ->  asperges
+ 307:    1  ->  asse
+ 308:    1  ->  assign
+ 309:    1  ->  assumed
+ 310:    1  ->  asts
+ 311:    1  ->  ation
+ 312:    1  ->  atlanta
+ 313:    1  ->  attend
+ 314:    1  ->  away
+ 315:    1  ->  awed
+ 316:    1  ->  awhile
+ 317:    1  ->  ay
+ 318:    1  ->  aye
+ 319:    1  ->  back
+ 320:    1  ->  baden
+ 321:    1  ->  balms
+ 322:    1  ->  bandanna
+ 323:    1  ->  banks
+ 324:    1  ->  bano
+ 325:    1  ->  barely
+ 326:    1  ->  barren
+ 327:    1  ->  barring
+ 328:    1  ->  bas
+ 329:    1  ->  bath
+ 330:    1  ->  bawlin
+ 331:    1  ->  beady
+ 332:    1  ->  bearing
+ 333:    1  ->  beast
+ 334:    1  ->  beasts
+ 335:    1  ->  beating
+ 336:    1  ->  beau
+ 337:    1  ->  became
+ 338:    1  ->  began
+ 339:    1  ->  begin
+ 340:    1  ->  begone
+ 341:    1  ->  behaviour
+ 342:    1  ->  behind
+ 343:    1  ->  being
+ 344:    1  ->  belief
+ 345:    1  ->  belinda
+ 346:    1  ->  bell
+ 347:    1  ->  belts
+ 348:    1  ->  ben
+ 349:    1  ->  bently
+ 350:    1  ->  berries
+ 351:    1  ->  bessel
+ 352:    1  ->  best
+ 353:    1  ->  betsey
+ 354:    1  ->  better
+ 355:    1  ->  big
+ 356:    1  ->  bill's
+ 357:    1  ->  bin
+ 358:    1  ->  birdie
+ 359:    1  ->  bits
+ 360:    1  ->  blair
+ 361:    1  ->  blaise
+ 362:    1  ->  blanco
+ 363:    1  ->  blatchley
+ 364:    1  ->  bled
+ 365:    1  ->  bleeding
+ 366:    1  ->  blight
+ 367:    1  ->  blinded
+ 368:    1  ->  block
+ 369:    1  ->  blot
+ 370:    1  ->  blue
+ 371:    1  ->  boatman
+ 372:    1  ->  bolts
+ 373:    1  ->  borgert
+ 374:    1  ->  borrer
+ 375:    1  ->  bottled
+ 376:    1  ->  bout
+ 377:    1  ->  bova
+ 378:    1  ->  bow
+ 379:    1  ->  bowing
+ 380:    1  ->  brake
+ 381:    1  ->  brand
+ 382:    1  ->  breathed
+ 383:    1  ->  bred
+ 384:    1  ->  breve
+ 385:    1  ->  bridled
+ 386:    1  ->  briggs
+ 387:    1  ->  bright's
+ 388:    1  ->  brings
+ 389:    1  ->  broche
+ 390:    1  ->  brock
+ 391:    1  ->  broken
+ 392:    1  ->  brorson
+ 393:    1  ->  bruce
+ 394:    1  ->  brush
+ 395:    1  ->  brutes
+ 396:    1  ->  bryant
+ 397:    1  ->  buds
+ 398:    1  ->  burden
+ 399:    1  ->  buried
+ 400:    1  ->  buyer
+ 401:    1  ->  by
+ 402:    1  ->  c'est
+ 403:    1  ->  cages
+ 404:    1  ->  cakes
+ 405:    1  ->  calloused
+ 406:    1  ->  cantered
+ 407:    1  ->  captain
+ 408:    1  ->  cards
+ 409:    1  ->  carefree
+ 410:    1  ->  carrot
+ 411:    1  ->  cart
+ 412:    1  ->  carts
+ 413:    1  ->  caste
+ 414:    1  ->  cation
+ 415:    1  ->  caught
+ 416:    1  ->  cautiously
+ 417:    1  ->  caverns
+ 418:    1  ->  cell
+ 419:    1  ->  centre
+ 420:    1  ->  cerro
+ 421:    1  ->  chair
+ 422:    1  ->  chamber
+ 423:    1  ->  chap
+ 424:    1  ->  characterised
+ 425:    1  ->  chasseur
+ 426:    1  ->  cheap
+ 427:    1  ->  checks
+ 428:    1  ->  cheiron
+ 429:    1  ->  child
+ 430:    1  ->  chill
+ 431:    1  ->  chips
+ 432:    1  ->  chiseled
+ 433:    1  ->  chow
+ 434:    1  ->  chris
+ 435:    1  ->  chunda
+ 436:    1  ->  cious
+ 437:    1  ->  cits
+ 438:    1  ->  claiming
+ 439:    1  ->  clamor
+ 440:    1  ->  clarity
+ 441:    1  ->  clark
+ 442:    1  ->  classed
+ 443:    1  ->  clause
+ 444:    1  ->  clean
+ 445:    1  ->  climb
+ 446:    1  ->  cloud
+ 447:    1  ->  clyst
+ 448:    1  ->  co
+ 449:    1  ->  coal
+ 450:    1  ->  coarse
+ 451:    1  ->  coat
+ 452:    1  ->  coffin
+ 453:    1  ->  cole
+ 454:    1  ->  colonel
+ 455:    1  ->  color
+ 456:    1  ->  colour
+ 457:    1  ->  coloured
+ 458:    1  ->  colours
+ 459:    1  ->  combles
+ 460:    1  ->  comet
+ 461:    1  ->  comf'table
+ 462:    1  ->  coming
+ 463:    1  ->  complained
+ 464:    1  ->  concede
+ 465:    1  ->  congo
+ 466:    1  ->  conon
+ 467:    1  ->  consist
+ 468:    1  ->  console
+ 469:    1  ->  constrict
+ 470:    1  ->  copper
+ 471:    1  ->  corpse
+ 472:    1  ->  coughed
+ 473:    1  ->  could
+ 474:    1  ->  courts
+ 475:    1  ->  crafts
+ 476:    1  ->  cream
+ 477:    1  ->  creature
+ 478:    1  ->  crete
+ 479:    1  ->  crisscross
+ 480:    1  ->  crisscrossed
+ 481:    1  ->  crobble
+ 482:    1  ->  crock
+ 483:    1  ->  crop
+ 484:    1  ->  crossed
+ 485:    1  ->  crost
+ 486:    1  ->  crown
+ 487:    1  ->  cullud
+ 488:    1  ->  curly
+ 489:    1  ->  curry
+ 490:    1  ->  curtis
+ 491:    1  ->  cushions
+ 492:    1  ->  cut
+ 493:    1  ->  d'este
+ 494:    1  ->  d'you
+ 495:    1  ->  damn
+ 496:    1  ->  danny
+ 497:    1  ->  dared
+ 498:    1  ->  date
+ 499:    1  ->  daumont
+ 500:    1  ->  de
+ 501:    1  ->  dead
+ 502:    1  ->  dean
+ 503:    1  ->  dear
+ 504:    1  ->  death
+ 505:    1  ->  deaths
+ 506:    1  ->  deceive
+ 507:    1  ->  deputies
+ 508:    1  ->  despair
+ 509:    1  ->  despatched
+ 510:    1  ->  destroyed
+ 511:    1  ->  dey
+ 512:    1  ->  dic's
+ 513:    1  ->  dick
+ 514:    1  ->  dieted
+ 515:    1  ->  differing
+ 516:    1  ->  difficulties
+ 517:    1  ->  dill
+ 518:    1  ->  dim
+ 519:    1  ->  discussed
+ 520:    1  ->  disease
+ 521:    1  ->  disgracing
+ 522:    1  ->  dispatched
+ 523:    1  ->  distinctly
+ 524:    1  ->  ditch
+ 525:    1  ->  diverted
+ 526:    1  ->  do
+ 527:    1  ->  doesn't
+ 528:    1  ->  dolby
+ 529:    1  ->  donkey
+ 530:    1  ->  door
+ 531:    1  ->  dort
+ 532:    1  ->  dot
+ 533:    1  ->  doth
+ 534:    1  ->  draught
+ 535:    1  ->  drawn
+ 536:    1  ->  dressing
+ 537:    1  ->  droits
+ 538:    1  ->  dry
+ 539:    1  ->  dummies
+ 540:    1  ->  dyed
+ 541:    1  ->  e
+ 542:    1  ->  earlston
+ 543:    1  ->  ease
+ 544:    1  ->  easton
+ 545:    1  ->  eat
+ 546:    1  ->  edition
+ 547:    1  ->  ees
+ 548:    1  ->  ef
+ 549:    1  ->  einst
+ 550:    1  ->  elation
+ 551:    1  ->  elena
+ 552:    1  ->  elfhild
+ 553:    1  ->  embrace
+ 554:    1  ->  emitted
+ 555:    1  ->  emotion
+ 556:    1  ->  en
+ 557:    1  ->  enable
+ 558:    1  ->  enchanter's
+ 559:    1  ->  endangers
+ 560:    1  ->  endeavor
+ 561:    1  ->  ended
+ 562:    1  ->  endless
+ 563:    1  ->  endocrines
+ 564:    1  ->  engines
+ 565:    1  ->  enjoy
+ 566:    1  ->  ensues
+ 567:    1  ->  entered
+ 568:    1  ->  equal
+ 569:    1  ->  ere
+ 570:    1  ->  eric
+ 571:    1  ->  erst
+ 572:    1  ->  eskimo's
+ 573:    1  ->  essper
+ 574:    1  ->  ever
+ 575:    1  ->  everybody
+ 576:    1  ->  everything
+ 577:    1  ->  evidently
+ 578:    1  ->  evince
+ 579:    1  ->  ewing
+ 580:    1  ->  exact
+ 581:    1  ->  expressed
+ 582:    1  ->  exultant
+ 583:    1  ->  eyeless
+ 584:    1  ->  eyes
+ 585:    1  ->  fact
+ 586:    1  ->  factor
+ 587:    1  ->  fading
+ 588:    1  ->  faint
+ 589:    1  ->  fairies
+ 590:    1  ->  fane
+ 591:    1  ->  fantasies
+ 592:    1  ->  far
+ 593:    1  ->  fastening
+ 594:    1  ->  fat
+ 595:    1  ->  fate
+ 596:    1  ->  favorable
+ 597:    1  ->  fay
+ 598:    1  ->  fellows
+ 599:    1  ->  felt
+ 600:    1  ->  fences
+ 601:    1  ->  fetched
+ 602:    1  ->  few
+ 603:    1  ->  file
+ 604:    1  ->  filed
+ 605:    1  ->  fills
+ 606:    1  ->  finn
+ 607:    1  ->  fiscal
+ 608:    1  ->  flank
+ 609:    1  ->  flap
+ 610:    1  ->  flashed
+ 611:    1  ->  flaunt
+ 612:    1  ->  flaunting
+ 613:    1  ->  flawed
+ 614:    1  ->  float
+ 615:    1  ->  floe
+ 616:    1  ->  flood
+ 617:    1  ->  flow
+ 618:    1  ->  fond
+ 619:    1  ->  forbade
+ 620:    1  ->  forded
+ 621:    1  ->  forest
+ 622:    1  ->  forget
+ 623:    1  ->  fort
+ 624:    1  ->  fortunate
+ 625:    1  ->  fourth
+ 626:    1  ->  fowls
+ 627:    1  ->  francis
+ 628:    1  ->  frees
+ 629:    1  ->  fresh
+ 630:    1  ->  friend
+ 631:    1  ->  fright
+ 632:    1  ->  frown
+ 633:    1  ->  fulke
+ 634:    1  ->  full
+ 635:    1  ->  fuller
+ 636:    1  ->  fuses
+ 637:    1  ->  fut
+ 638:    1  ->  gaff
+ 639:    1  ->  gaffer
+ 640:    1  ->  gang
+ 641:    1  ->  garden
+ 642:    1  ->  garter
+ 643:    1  ->  gas
+ 644:    1  ->  gate
+ 645:    1  ->  gather
+ 646:    1  ->  gauge
+ 647:    1  ->  gemma
+ 648:    1  ->  gent
+ 649:    1  ->  gentleman
+ 650:    1  ->  gentleman'
+ 651:    1  ->  girl's
+ 652:    1  ->  glee
+ 653:    1  ->  glory
+ 654:    1  ->  glowing
+ 655:    1  ->  glycerine
+ 656:    1  ->  gnomes
+ 657:    1  ->  gold
+ 658:    1  ->  gollyer
+ 659:    1  ->  goodbye
+ 660:    1  ->  gossip
+ 661:    1  ->  graceful
+ 662:    1  ->  grammar
+ 663:    1  ->  grand
+ 664:    1  ->  grandall's
+ 665:    1  ->  graver
+ 666:    1  ->  gray
+ 667:    1  ->  greedy
+ 668:    1  ->  grooms
+ 669:    1  ->  ground
+ 670:    1  ->  group
+ 671:    1  ->  grow
+ 672:    1  ->  gryphon's
+ 673:    1  ->  guarded
+ 674:    1  ->  guienne
+ 675:    1  ->  gush
+ 676:    1  ->  guy
+ 677:    1  ->  gwynplaine
+ 678:    1  ->  haired
+ 679:    1  ->  hairs
+ 680:    1  ->  halfway
+ 681:    1  ->  hall
+ 682:    1  ->  hallen's
+ 683:    1  ->  halls
+ 684:    1  ->  hally
+ 685:    1  ->  ham
+ 686:    1  ->  handed
+ 687:    1  ->  hansom
+ 688:    1  ->  happy
+ 689:    1  ->  harald
+ 690:    1  ->  harbour
+ 691:    1  ->  harder
+ 692:    1  ->  hardwick
+ 693:    1  ->  hare
+ 694:    1  ->  harrison
+ 695:    1  ->  he'd
+ 696:    1  ->  he'll
+ 697:    1  ->  heads
+ 698:    1  ->  hear
+ 699:    1  ->  hearers
+ 700:    1  ->  hearse
+ 701:    1  ->  heartless
+ 702:    1  ->  heat
+ 703:    1  ->  hee
+ 704:    1  ->  heedin
+ 705:    1  ->  help
+ 706:    1  ->  hen
+ 707:    1  ->  hens
+ 708:    1  ->  herman
+ 709:    1  ->  herod
+ 710:    1  ->  hers
+ 711:    1  ->  herself
+ 712:    1  ->  hetty
+ 713:    1  ->  high
+ 714:    1  ->  highland
+ 715:    1  ->  highway
+ 716:    1  ->  hoff
+ 717:    1  ->  hole
+ 718:    1  ->  holt's
+ 719:    1  ->  holtz's
+ 720:    1  ->  holy
+ 721:    1  ->  home
+ 722:    1  ->  honest
+ 723:    1  ->  honor
+ 724:    1  ->  hood
+ 725:    1  ->  hooley
+ 726:    1  ->  hooligan
+ 727:    1  ->  hoping
+ 728:    1  ->  horace
+ 729:    1  ->  horror
+ 730:    1  ->  houlston
+ 731:    1  ->  how
+ 732:    1  ->  hoy
+ 733:    1  ->  hub
+ 734:    1  ->  hull
+ 735:    1  ->  hum
+ 736:    1  ->  humour
+ 737:    1  ->  hunt
+ 738:    1  ->  hunted
+ 739:    1  ->  hup
+ 740:    1  ->  hurry
+ 741:    1  ->  hurt
+ 742:    1  ->  i'd
+ 743:    1  ->  iahvah
+ 744:    1  ->  ids
+ 745:    1  ->  ignored
+ 746:    1  ->  impostor
+ 747:    1  ->  in's
+ 748:    1  ->  ina
+ 749:    1  ->  incensed
+ 750:    1  ->  inched
+ 751:    1  ->  increase
+ 752:    1  ->  india
+ 753:    1  ->  ing
+ 754:    1  ->  ingratitude
+ 755:    1  ->  ingur
+ 756:    1  ->  inhabit
+ 757:    1  ->  ink
+ 758:    1  ->  inn
+ 759:    1  ->  innate
+ 760:    1  ->  inner
+ 761:    1  ->  innocent
+ 762:    1  ->  inquired
+ 763:    1  ->  inseparable
+ 764:    1  ->  insistent
+ 765:    1  ->  intruders
+ 766:    1  ->  invalid
+ 767:    1  ->  inverted
+ 768:    1  ->  is't
+ 769:    1  ->  isabel
+ 770:    1  ->  isms
+ 771:    1  ->  isn't
+ 772:    1  ->  issued
+ 773:    1  ->  ist
+ 774:    1  ->  it's
+ 775:    1  ->  itself
+ 776:    1  ->  izzie
+ 777:    1  ->  jam
+ 778:    1  ->  jessie's
+ 779:    1  ->  jetted
+ 780:    1  ->  jingle
+ 781:    1  ->  joly
+ 782:    1  ->  jonah
+ 783:    1  ->  jory
+ 784:    1  ->  jotting
+ 785:    1  ->  katharine
+ 786:    1  ->  katherine's
+ 787:    1  ->  katy
+ 788:    1  ->  keels
+ 789:    1  ->  keep
+ 790:    1  ->  keepin
+ 791:    1  ->  ken
+ 792:    1  ->  kens
+ 793:    1  ->  kerplonne
+ 794:    1  ->  key
+ 795:    1  ->  keyed
+ 796:    1  ->  kick
+ 797:    1  ->  killed
+ 798:    1  ->  kissed
+ 799:    1  ->  kitchens
+ 800:    1  ->  kneel
+ 801:    1  ->  knells
+ 802:    1  ->  knocked
+ 803:    1  ->  knots
+ 804:    1  ->  kolya
+ 805:    1  ->  l
+ 806:    1  ->  lackeys
+ 807:    1  ->  laigs
+ 808:    1  ->  lak
+ 809:    1  ->  lane
+ 810:    1  ->  larval
+ 811:    1  ->  lash
+ 812:    1  ->  last
+ 813:    1  ->  latch
+ 814:    1  ->  late
+ 815:    1  ->  laughed
+ 816:    1  ->  lay
+ 817:    1  ->  lead
+ 818:    1  ->  leading
+ 819:    1  ->  leads
+ 820:    1  ->  leapt
+ 821:    1  ->  lease
+ 822:    1  ->  left
+ 823:    1  ->  legrand
+ 824:    1  ->  lem
+ 825:    1  ->  lep
+ 826:    1  ->  let
+ 827:    1  ->  let's
+ 828:    1  ->  liked
+ 829:    1  ->  linacre
+ 830:    1  ->  line
+ 831:    1  ->  lipstick
+ 832:    1  ->  listen'd
+ 833:    1  ->  lived
+ 834:    1  ->  livery
+ 835:    1  ->  livin
+ 836:    1  ->  loads
+ 837:    1  ->  locke
+ 838:    1  ->  loman
+ 839:    1  ->  lone
+ 840:    1  ->  look
+ 841:    1  ->  looked
+ 842:    1  ->  lords
+ 843:    1  ->  lore
+ 844:    1  ->  lot
+ 845:    1  ->  lots
+ 846:    1  ->  louis
+ 847:    1  ->  lovable
+ 848:    1  ->  low
+ 849:    1  ->  luck
+ 850:    1  ->  lufton
+ 851:    1  ->  lyonesse
+ 852:    1  ->  lyre
+ 853:    1  ->  mac
+ 854:    1  ->  magians
+ 855:    1  ->  magister
+ 856:    1  ->  maid
+ 857:    1  ->  maine
+ 858:    1  ->  maka
+ 859:    1  ->  makkah
+ 860:    1  ->  malka
+ 861:    1  ->  malling
+ 862:    1  ->  manage
+ 863:    1  ->  manche
+ 864:    1  ->  mandy
+ 865:    1  ->  maragon's
+ 866:    1  ->  marched
+ 867:    1  ->  mark
+ 868:    1  ->  marot
+ 869:    1  ->  marveling
+ 870:    1  ->  mary
+ 871:    1  ->  mass
+ 872:    1  ->  master
+ 873:    1  ->  mastered
+ 874:    1  ->  mating
+ 875:    1  ->  matter
+ 876:    1  ->  mayn't
+ 877:    1  ->  maze
+ 878:    1  ->  measure
+ 879:    1  ->  medic
+ 880:    1  ->  member
+ 881:    1  ->  members
+ 882:    1  ->  men
+ 883:    1  ->  mends
+ 884:    1  ->  mere
+ 885:    1  ->  mighty
+ 886:    1  ->  mild
+ 887:    1  ->  min
+ 888:    1  ->  mina's
+ 889:    1  ->  mind
+ 890:    1  ->  mine
+ 891:    1  ->  minit
+ 892:    1  ->  misery
+ 893:    1  ->  mistakenly
+ 894:    1  ->  mites
+ 895:    1  ->  mme
+ 896:    1  ->  mohawks
+ 897:    1  ->  mole
+ 898:    1  ->  month
+ 899:    1  ->  morane
+ 900:    1  ->  mordaunt
+ 901:    1  ->  more
+ 902:    1  ->  morris
+ 903:    1  ->  mort
+ 904:    1  ->  most
+ 905:    1  ->  moths
+ 906:    1  ->  mouche
+ 907:    1  ->  mould
+ 908:    1  ->  mound
+ 909:    1  ->  moustache
+ 910:    1  ->  move
+ 911:    1  ->  moved
+ 912:    1  ->  ms
+ 913:    1  ->  much
+ 914:    1  ->  muffler
+ 915:    1  ->  muntz
+ 916:    1  ->  mus
+ 917:    1  ->  muse
+ 918:    1  ->  mustn't
+ 919:    1  ->  na
+ 920:    1  ->  nail
+ 921:    1  ->  named
+ 922:    1  ->  narbonne
+ 923:    1  ->  narrow
+ 924:    1  ->  nat
+ 925:    1  ->  nattier
+ 926:    1  ->  nea
+ 927:    1  ->  nears
+ 928:    1  ->  neath
+ 929:    1  ->  ned
+ 930:    1  ->  needed
+ 931:    1  ->  needles
+ 932:    1  ->  needst
+ 933:    1  ->  negroes
+ 934:    1  ->  neha
+ 935:    1  ->  neighbour's
+ 936:    1  ->  nepos
+ 937:    1  ->  net
+ 938:    1  ->  never
+ 939:    1  ->  new
+ 940:    1  ->  newsome
+ 941:    1  ->  nicholas
+ 942:    1  ->  nigger
+ 943:    1  ->  night
+ 944:    1  ->  nil
+ 945:    1  ->  nina
+ 946:    1  ->  nines
+ 947:    1  ->  nioche
+ 948:    1  ->  none
+ 949:    1  ->  noontime
+ 950:    1  ->  nor
+ 951:    1  ->  normous
+ 952:    1  ->  nothing
+ 953:    1  ->  nough
+ 954:    1  ->  nursing
+ 955:    1  ->  nuss
+ 956:    1  ->  nut
+ 957:    1  ->  nutshell
+ 958:    1  ->  oak
+ 959:    1  ->  oats
+ 960:    1  ->  obeyed
+ 961:    1  ->  occur
+ 962:    1  ->  odda
+ 963:    1  ->  odious
+ 964:    1  ->  offhand
+ 965:    1  ->  officers
+ 966:    1  ->  often
+ 967:    1  ->  oh
+ 968:    1  ->  older
+ 969:    1  ->  olenin
+ 970:    1  ->  ollie's
+ 971:    1  ->  once
+ 972:    1  ->  ones
+ 973:    1  ->  oo
+ 974:    1  ->  opal
+ 975:    1  ->  opened
+ 976:    1  ->  opening
+ 977:    1  ->  opportunity
+ 978:    1  ->  orange
+ 979:    1  ->  orly
+ 980:    1  ->  ortolans
+ 981:    1  ->  oughter
+ 982:    1  ->  ould
+ 983:    1  ->  ous
+ 984:    1  ->  outlets
+ 985:    1  ->  over
+ 986:    1  ->  overthrew
+ 987:    1  ->  owen
+ 988:    1  ->  owl
+ 989:    1  ->  oz
+ 990:    1  ->  pacey
+ 991:    1  ->  paddock
+ 992:    1  ->  page
+ 993:    1  ->  paid
+ 994:    1  ->  paine
+ 995:    1  ->  painter
+ 996:    1  ->  pair
+ 997:    1  ->  pal
+ 998:    1  ->  parchment
+ 999:    1  ->  pardons
+1000:    1  ->  parlor
+1001:    1  ->  partly
+1002:    1  ->  passages
+1003:    1  ->  passee
+1004:    1  ->  pat
+1005:    1  ->  pathetic
+1006:    1  ->  paul
+1007:    1  ->  peers
+1008:    1  ->  pelle
+1009:    1  ->  penance
+1010:    1  ->  penmen
+1011:    1  ->  peoples
+1012:    1  ->  perceive
+1013:    1  ->  percombe
+1014:    1  ->  permits
+1015:    1  ->  ph
+1016:    1  ->  phone
+1017:    1  ->  phyl
+1018:    1  ->  pillows
+1019:    1  ->  pine
+1020:    1  ->  pines
+1021:    1  ->  pit
+1022:    1  ->  plain
+1023:    1  ->  plane
+1024:    1  ->  planed
+1025:    1  ->  planes
+1026:    1  ->  plastering
+1027:    1  ->  plates
+1028:    1  ->  pleading
+1029:    1  ->  plenty's
+1030:    1  ->  plight
+1031:    1  ->  plots
+1032:    1  ->  plough
+1033:    1  ->  plying
+1034:    1  ->  pobble
+1035:    1  ->  poisoned
+1036:    1  ->  poke
+1037:    1  ->  polite
+1038:    1  ->  pommel
+1039:    1  ->  pompous
+1040:    1  ->  poney
+1041:    1  ->  poor
+1042:    1  ->  popcorn
+1043:    1  ->  pope
+1044:    1  ->  por
+1045:    1  ->  portrait
+1046:    1  ->  possesses
+1047:    1  ->  post
+1048:    1  ->  potter
+1049:    1  ->  pounce
+1050:    1  ->  pours
+1051:    1  ->  power
+1052:    1  ->  predicable
+1053:    1  ->  prent
+1054:    1  ->  pressed
+1055:    1  ->  price
+1056:    1  ->  pride
+1057:    1  ->  priors
+1058:    1  ->  profit
+1059:    1  ->  promise
+1060:    1  ->  province
+1061:    1  ->  prowl
+1062:    1  ->  pulleys
+1063:    1  ->  pulp
+1064:    1  ->  pulse
+1065:    1  ->  purer
+1066:    1  ->  pursley
+1067:    1  ->  putting
+1068:    1  ->  quarters
+1069:    1  ->  quito
+1070:    1  ->  rain
+1071:    1  ->  raise
+1072:    1  ->  randall
+1073:    1  ->  randall's
+1074:    1  ->  ranged
+1075:    1  ->  rat
+1076:    1  ->  rather
+1077:    1  ->  ready
+1078:    1  ->  reasons
+1079:    1  ->  reassured
+1080:    1  ->  receive
+1081:    1  ->  recognizes
+1082:    1  ->  rectus
+1083:    1  ->  reisen
+1084:    1  ->  relock
+1085:    1  ->  remains
+1086:    1  ->  responsiveness
+1087:    1  ->  retold
+1088:    1  ->  ride
+1089:    1  ->  rien
+1090:    1  ->  right
+1091:    1  ->  rigid
+1092:    1  ->  rinds
+1093:    1  ->  riv
+1094:    1  ->  river
+1095:    1  ->  rob
+1096:    1  ->  robbed
+1097:    1  ->  rollway
+1098:    1  ->  ron
+1099:    1  ->  roomful
+1100:    1  ->  rope
+1101:    1  ->  roue
+1102:    1  ->  rowlock
+1103:    1  ->  ruin
+1104:    1  ->  rule
+1105:    1  ->  rum
+1106:    1  ->  ruse
+1107:    1  ->  rye
+1108:    1  ->  saint
+1109:    1  ->  saints
+1110:    1  ->  salt
+1111:    1  ->  sancha
+1112:    1  ->  sang
+1113:    1  ->  sar
+1114:    1  ->  sara
+1115:    1  ->  satterday
+1116:    1  ->  saul
+1117:    1  ->  savor
+1118:    1  ->  say
+1119:    1  ->  sayd
+1120:    1  ->  scenes
+1121:    1  ->  scheldt
+1122:    1  ->  schmidt
+1123:    1  ->  scullion's
+1124:    1  ->  sea
+1125:    1  ->  sean
+1126:    1  ->  seats
+1127:    1  ->  second
+1128:    1  ->  securer
+1129:    1  ->  sed
+1130:    1  ->  see
+1131:    1  ->  seems
+1132:    1  ->  seen
+1133:    1  ->  selves
+1134:    1  ->  sen
+1135:    1  ->  sense
+1136:    1  ->  sensua
+1137:    1  ->  serve
+1138:    1  ->  ses
+1139:    1  ->  settle
+1140:    1  ->  shall
+1141:    1  ->  shambler
+1142:    1  ->  shape
+1143:    1  ->  sheep
+1144:    1  ->  shifting
+1145:    1  ->  ship
+1146:    1  ->  shirley
+1147:    1  ->  shonnin
+1148:    1  ->  shore
+1149:    1  ->  shorn
+1150:    1  ->  shorter
+1151:    1  ->  shortness
+1152:    1  ->  should
+1153:    1  ->  show
+1154:    1  ->  shows
+1155:    1  ->  shuns
+1156:    1  ->  shuster
+1157:    1  ->  shut
+1158:    1  ->  sickleton
+1159:    1  ->  sidney
+1160:    1  ->  sigh
+1161:    1  ->  sight
+1162:    1  ->  sile
+1163:    1  ->  size
+1164:    1  ->  skill
+1165:    1  ->  skin
+1166:    1  ->  skinned
+1167:    1  ->  sky
+1168:    1  ->  slant
+1169:    1  ->  slape
+1170:    1  ->  slice
+1171:    1  ->  slide
+1172:    1  ->  slightly
+1173:    1  ->  slip
+1174:    1  ->  slowly
+1175:    1  ->  snider
+1176:    1  ->  snout
+1177:    1  ->  snuffles
+1178:    1  ->  soarings
+1179:    1  ->  sob
+1180:    1  ->  softness
+1181:    1  ->  sol
+1182:    1  ->  sole
+1183:    1  ->  solon
+1184:    1  ->  somethin
+1185:    1  ->  son's
+1186:    1  ->  sons
+1187:    1  ->  soon
+1188:    1  ->  sort
+1189:    1  ->  soul
+1190:    1  ->  sound
+1191:    1  ->  southern
+1192:    1  ->  space
+1193:    1  ->  spaceforce
+1194:    1  ->  spake
+1195:    1  ->  spared
+1196:    1  ->  spe
+1197:    1  ->  speedin
+1198:    1  ->  spend
+1199:    1  ->  spider
+1200:    1  ->  spite
+1201:    1  ->  splendor
+1202:    1  ->  spots
+1203:    1  ->  squire's
+1204:    1  ->  stairs
+1205:    1  ->  stan
+1206:    1  ->  star
+1207:    1  ->  stay
+1208:    1  ->  steenie
+1209:    1  ->  still
+1210:    1  ->  stirring
+1211:    1  ->  stock
+1212:    1  ->  stooped
+1213:    1  ->  straight
+1214:    1  ->  strain
+1215:    1  ->  streams
+1216:    1  ->  stupified
+1217:    1  ->  suard
+1218:    1  ->  sublime
+1219:    1  ->  subpoena
+1220:    1  ->  succeeded
+1221:    1  ->  sundays
+1222:    1  ->  sunk
+1223:    1  ->  sunny
+1224:    1  ->  surer
+1225:    1  ->  swallow
+1226:    1  ->  swine's
+1227:    1  ->  takes
+1228:    1  ->  talked
+1229:    1  ->  talkin
+1230:    1  ->  tall
+1231:    1  ->  tanning
+1232:    1  ->  tarara
+1233:    1  ->  tattoo
+1234:    1  ->  te
+1235:    1  ->  teaches
+1236:    1  ->  tear
+1237:    1  ->  teares
+1238:    1  ->  tearing
+1239:    1  ->  teas
+1240:    1  ->  techy
+1241:    1  ->  teed
+1242:    1  ->  teeters
+1243:    1  ->  tent
+1244:    1  ->  ter
+1245:    1  ->  termed
+1246:    1  ->  tes
+1247:    1  ->  that's
+1248:    1  ->  theirs
+1249:    1  ->  there'd
+1250:    1  ->  thicken
+1251:    1  ->  thing
+1252:    1  ->  thinks
+1253:    1  ->  those
+1254:    1  ->  thou
+1255:    1  ->  thought
+1256:    1  ->  thow
+1257:    1  ->  three
+1258:    1  ->  thresholds
+1259:    1  ->  tia
+1260:    1  ->  ticket
+1261:    1  ->  tied
+1262:    1  ->  tiera
+1263:    1  ->  tierce
+1264:    1  ->  tiers
+1265:    1  ->  tilda
+1266:    1  ->  till
+1267:    1  ->  tilly
+1268:    1  ->  tips
+1269:    1  ->  title
+1270:    1  ->  toady's
+1271:    1  ->  today
+1272:    1  ->  together
+1273:    1  ->  tokai
+1274:    1  ->  toll
+1275:    1  ->  tollar
+1276:    1  ->  tonight
+1277:    1  ->  tooth
+1278:    1  ->  topsy
+1279:    1  ->  tor
+1280:    1  ->  torrid
+1281:    1  ->  touch
+1282:    1  ->  tough
+1283:    1  ->  tour
+1284:    1  ->  towel
+1285:    1  ->  tr
+1286:    1  ->  trait
+1287:    1  ->  tram
+1288:    1  ->  trant
+1289:    1  ->  traps
+1290:    1  ->  travel
+1291:    1  ->  travelled
+1292:    1  ->  tray
+1293:    1  ->  tread
+1294:    1  ->  treason
+1295:    1  ->  treating
+1296:    1  ->  tree
+1297:    1  ->  trimmed
+1298:    1  ->  trusting
+1299:    1  ->  trying
+1300:    1  ->  turn
+1301:    1  ->  twain
+1302:    1  ->  twist
+1303:    1  ->  twould
+1304:    1  ->  tylo
+1305:    1  ->  tyrannize
+1306:    1  ->  uch
+1307:    1  ->  uh
+1308:    1  ->  umble
+1309:    1  ->  unburden
+1310:    1  ->  unfavorable
+1311:    1  ->  unheard
+1312:    1  ->  unimpulsive
+1313:    1  ->  unless
+1314:    1  ->  untwisted
+1315:    1  ->  upon
+1316:    1  ->  upper
+1317:    1  ->  uprose
+1318:    1  ->  urn
+1319:    1  ->  us
+1320:    1  ->  vacant
+1321:    1  ->  vain
+1322:    1  ->  vast
+1323:    1  ->  vault
+1324:    1  ->  veiny
+1325:    1  ->  vend
+1326:    1  ->  venus
+1327:    1  ->  veranda
+1328:    1  ->  very
+1329:    1  ->  vestured
+1330:    1  ->  vigor
+1331:    1  ->  wada
+1332:    1  ->  waiter
+1333:    1  ->  walad
+1334:    1  ->  waldheim
+1335:    1  ->  walks
+1336:    1  ->  wand
+1337:    1  ->  war
+1338:    1  ->  wars
+1339:    1  ->  warter
+1340:    1  ->  waylay
+1341:    1  ->  wayne's
+1342:    1  ->  we
+1343:    1  ->  we'd
+1344:    1  ->  we're
+1345:    1  ->  wean
+1346:    1  ->  weather
+1347:    1  ->  week
+1348:    1  ->  weighty
+1349:    1  ->  weissmann
+1350:    1  ->  went
+1351:    1  ->  whale
+1352:    1  ->  whar
+1353:    1  ->  what're
+1354:    1  ->  what's
+1355:    1  ->  whelmed
+1356:    1  ->  whenever
+1357:    1  ->  whine
+1358:    1  ->  whirred
+1359:    1  ->  who've
+1360:    1  ->  whole
+1361:    1  ->  wholly
+1362:    1  ->  whom
+1363:    1  ->  whose
+1364:    1  ->  why
+1365:    1  ->  wildly
+1366:    1  ->  wiles
+1367:    1  ->  windows
+1368:    1  ->  wine
+1369:    1  ->  wishin
+1370:    1  ->  witched
+1371:    1  ->  withstanding
+1372:    1  ->  wood
+1373:    1  ->  woodie
+1374:    1  ->  woodson
+1375:    1  ->  woolley
+1376:    1  ->  wore
+1377:    1  ->  world
+1378:    1  ->  worry
+1379:    1  ->  worst
+1380:    1  ->  worth
+1381:    1  ->  worthy
+1382:    1  ->  would've
+1383:    1  ->  wouldst
+1384:    1  ->  wrath
+1385:    1  ->  wronged
+1386:    1  ->  ye
+1387:    1  ->  ye'll
+1388:    1  ->  ye've
+1389:    1  ->  year
+1390:    1  ->  yet
+1391:    1  ->  yews
+1392:    1  ->  you'd
+1393:    1  ->  you'll
+1394:    1  ->  zest
+1395:    1  ->  zinc
+     -------
+      2343
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (1216)
+                                 With >=  1 occurrences (1216)
+
+   1:   84  ->  and
+   2:   59  ->  a
+   3:   56  ->  the
+   4:   51  ->  in
+   5:   26  ->  that
+   6:   26  ->  to
+   7:   25  ->  of
+   8:   23  ->  is
+   9:   23  ->  it
+  10:   20  ->  are
+  11:   20  ->  have
+  12:   18  ->  his
+  13:   17  ->  at
+  14:   16  ->  but
+  15:   16  ->  on
+  16:   15  ->  he
+  17:   15  ->  you
+  18:   14  ->  an
+  19:   14  ->  as
+  20:   13  ->  had
+  21:   13  ->  or
+  22:   12  ->  i
+  23:   11  ->  with
+  24:   10  ->  if
+  25:   10  ->  they
+  26:    9  ->  now
+  27:    9  ->  poor
+  28:    8  ->  macklewain
+  29:    8  ->  not
+  30:    7  ->  her
+  31:    7  ->  like
+  32:    7  ->  out
+  33:    7  ->  sancho
+  34:    7  ->  see
+  35:    7  ->  them
+  36:    7  ->  there
+  37:    7  ->  very
+  38:    7  ->  was
+  39:    7  ->  were
+  40:    7  ->  who
+  41:    7  ->  would
+  42:    6  ->  don
+  43:    6  ->  from
+  44:    6  ->  how
+  45:    6  ->  meekin
+  46:    6  ->  quixote
+  47:    6  ->  so
+  48:    6  ->  their
+  49:    6  ->  then
+  50:    6  ->  this
+  51:    6  ->  through
+  52:    6  ->  us
+  53:    5  ->  antonia
+  54:    5  ->  kaliko
+  55:    5  ->  magpie
+  56:    5  ->  milner
+  57:    5  ->  one
+  58:    5  ->  our
+  59:    5  ->  said
+  60:    5  ->  saint
+  61:    5  ->  saw
+  62:    5  ->  shimerda
+  63:    5  ->  verloc
+  64:    5  ->  will
+  65:    4  ->  about
+  66:    4  ->  am
+  67:    4  ->  any
+  68:    4  ->  cosette
+  69:    4  ->  could
+  70:    4  ->  cross
+  71:    4  ->  gwynplaine
+  72:    4  ->  hand
+  73:    4  ->  has
+  74:    4  ->  its
+  75:    4  ->  jean
+  76:    4  ->  looked
+  77:    4  ->  michaelis
+  78:    4  ->  no
+  79:    4  ->  pinkies
+  80:    4  ->  sat
+  81:    4  ->  tears
+  82:    4  ->  than
+  83:    4  ->  thee
+  84:    4  ->  thing
+  85:    4  ->  though
+  86:    4  ->  valjean
+  87:    4  ->  we
+  88:    4  ->  when
+  89:    4  ->  where
+  90:    4  ->  while
+  91:    3  ->  around
+  92:    3  ->  away
+  93:    3  ->  bartley
+  94:    3  ->  been
+  95:    3  ->  began
+  96:    3  ->  bow
+  97:    3  ->  brion
+  98:    3  ->  comrade
+  99:    3  ->  course
+ 100:    3  ->  did
+ 101:    3  ->  do
+ 102:    3  ->  face
+ 103:    3  ->  for
+ 104:    3  ->  get
+ 105:    3  ->  good
+ 106:    3  ->  grethel
+ 107:    3  ->  gwynplaine's
+ 108:    3  ->  here
+ 109:    3  ->  him
+ 110:    3  ->  i'm
+ 111:    3  ->  into
+ 112:    3  ->  iona
+ 113:    3  ->  it's
+ 114:    3  ->  just
+ 115:    3  ->  lattimer
+ 116:    3  ->  law
+ 117:    3  ->  least
+ 118:    3  ->  lips
+ 119:    3  ->  lower
+ 120:    3  ->  men
+ 121:    3  ->  mister
+ 122:    3  ->  must
+ 123:    3  ->  my
+ 124:    3  ->  o
+ 125:    3  ->  oh
+ 126:    3  ->  otto
+ 127:    3  ->  piece
+ 128:    3  ->  read
+ 129:    3  ->  ruggedo
+ 130:    3  ->  says
+ 131:    3  ->  seeing
+ 132:    3  ->  shell
+ 133:    3  ->  southwark
+ 134:    3  ->  spring
+ 135:    3  ->  sure
+ 136:    3  ->  talk
+ 137:    3  ->  terrorist
+ 138:    3  ->  theatre
+ 139:    3  ->  these
+ 140:    3  ->  thou
+ 141:    3  ->  thy
+ 142:    3  ->  too
+ 143:    3  ->  took
+ 144:    3  ->  up
+ 145:    3  ->  what
+ 146:    3  ->  whose
+ 147:    3  ->  your
+ 148:    2  ->  accident
+ 149:    2  ->  again
+ 150:    2  ->  air
+ 151:    2  ->  already
+ 152:    2  ->  ambrosch
+ 153:    2  ->  arose
+ 154:    2  ->  ass
+ 155:    2  ->  assured
+ 156:    2  ->  be
+ 157:    2  ->  between
+ 158:    2  ->  boy
+ 159:    2  ->  breathe
+ 160:    2  ->  brute
+ 161:    2  ->  bur
+ 162:    2  ->  burgess
+ 163:    2  ->  carrying
+ 164:    2  ->  cloud
+ 165:    2  ->  comfortable
+ 166:    2  ->  cow
+ 167:    2  ->  criss
+ 168:    2  ->  day
+ 169:    2  ->  death
+ 170:    2  ->  different
+ 171:    2  ->  doesn't
+ 172:    2  ->  don't
+ 173:    2  ->  dost
+ 174:    2  ->  doth
+ 175:    2  ->  draw
+ 176:    2  ->  drawing
+ 177:    2  ->  eat
+ 178:    2  ->  em
+ 179:    2  ->  enough
+ 180:    2  ->  ever
+ 181:    2  ->  ewes
+ 182:    2  ->  fibi
+ 183:    2  ->  flog
+ 184:    2  ->  food
+ 185:    2  ->  forbid
+ 186:    2  ->  free
+ 187:    2  ->  front
+ 188:    2  ->  fuchs
+ 189:    2  ->  gas
+ 190:    2  ->  gentlemen
+ 191:    2  ->  glad
+ 192:    2  ->  go
+ 193:    2  ->  god
+ 194:    2  ->  gong
+ 195:    2  ->  got
+ 196:    2  ->  government
+ 197:    2  ->  hair
+ 198:    2  ->  hard
+ 199:    2  ->  heart
+ 200:    2  ->  held
+ 201:    2  ->  hovel
+ 202:    2  ->  huh
+ 203:    2  ->  inn
+ 204:    2  ->  jim
+ 205:    2  ->  john
+ 206:    2  ->  joy
+ 207:    2  ->  karl
+ 208:    2  ->  kentucky
+ 209:    2  ->  kirkland
+ 210:    2  ->  knew
+ 211:    2  ->  know
+ 212:    2  ->  lamp
+ 213:    2  ->  laugh
+ 214:    2  ->  laws
+ 215:    2  ->  led
+ 216:    2  ->  limb
+ 217:    2  ->  lip
+ 218:    2  ->  little
+ 219:    2  ->  live
+ 220:    2  ->  lives
+ 221:    2  ->  loaded
+ 222:    2  ->  lord
+ 223:    2  ->  loved
+ 224:    2  ->  madge
+ 225:    2  ->  maiden
+ 226:    2  ->  may
+ 227:    2  ->  me
+ 228:    2  ->  miss
+ 229:    2  ->  months
+ 230:    2  ->  morrow
+ 231:    2  ->  mountain
+ 232:    2  ->  mountebank
+ 233:    2  ->  moved
+ 234:    2  ->  much
+ 235:    2  ->  nearly
+ 236:    2  ->  neighbors
+ 237:    2  ->  nor
+ 238:    2  ->  odd
+ 239:    2  ->  only
+ 240:    2  ->  ossipon
+ 241:    2  ->  ossipon's
+ 242:    2  ->  others
+ 243:    2  ->  over
+ 244:    2  ->  pass
+ 245:    2  ->  pavel
+ 246:    2  ->  poison
+ 247:    2  ->  princess
+ 248:    2  ->  raised
+ 249:    2  ->  randal's
+ 250:    2  ->  recognized
+ 251:    2  ->  right
+ 252:    2  ->  round
+ 253:    2  ->  save
+ 254:    2  ->  seem
+ 255:    2  ->  seemed
+ 256:    2  ->  seems
+ 257:    2  ->  sent
+ 258:    2  ->  she
+ 259:    2  ->  sheep
+ 260:    2  ->  sole
+ 261:    2  ->  some
+ 262:    2  ->  t
+ 263:    2  ->  tall
+ 264:    2  ->  tara
+ 265:    2  ->  tell
+ 266:    2  ->  they're
+ 267:    2  ->  thick
+ 268:    2  ->  think
+ 269:    2  ->  those
+ 270:    2  ->  thought
+ 271:    2  ->  thousand
+ 272:    2  ->  threshold
+ 273:    2  ->  thrust
+ 274:    2  ->  together
+ 275:    2  ->  tourmaline
+ 276:    2  ->  towards
+ 277:    2  ->  traveling
+ 278:    2  ->  turned
+ 279:    2  ->  uncle
+ 280:    2  ->  v
+ 281:    2  ->  valkyrie
+ 282:    2  ->  vapours
+ 283:    2  ->  vinos
+ 284:    2  ->  way
+ 285:    2  ->  went
+ 286:    2  ->  what's
+ 287:    2  ->  whatever
+ 288:    2  ->  whether
+ 289:    2  ->  wood
+ 290:    2  ->  woodley
+ 291:    2  ->  yes
+ 292:    2  ->  you'll
+ 293:    2  ->  you're
+ 294:    2  ->  yulka
+ 295:    2  ->  yundt
+ 296:    1  ->  abandoned
+ 297:    1  ->  abbess
+ 298:    1  ->  abode
+ 299:    1  ->  absolutely
+ 300:    1  ->  accentuated
+ 301:    1  ->  adamnan
+ 302:    1  ->  admire
+ 303:    1  ->  afraid
+ 304:    1  ->  africanus
+ 305:    1  ->  after
+ 306:    1  ->  against
+ 307:    1  ->  agent
+ 308:    1  ->  ages
+ 309:    1  ->  ah
+ 310:    1  ->  aidan
+ 311:    1  ->  alder
+ 312:    1  ->  alexander
+ 313:    1  ->  algebra
+ 314:    1  ->  alive
+ 315:    1  ->  also
+ 316:    1  ->  altercation
+ 317:    1  ->  altogether
+ 318:    1  ->  always
+ 319:    1  ->  amazed
+ 320:    1  ->  ann
+ 321:    1  ->  answered
+ 322:    1  ->  antonia's
+ 323:    1  ->  anxieties
+ 324:    1  ->  anything
+ 325:    1  ->  apartment
+ 326:    1  ->  apostle's
+ 327:    1  ->  apostles
+ 328:    1  ->  approve
+ 329:    1  ->  arabesque
+ 330:    1  ->  ardour
+ 331:    1  ->  arena
+ 332:    1  ->  arm
+ 333:    1  ->  armies
+ 334:    1  ->  arms
+ 335:    1  ->  army
+ 336:    1  ->  aroma
+ 337:    1  ->  arranged
+ 338:    1  ->  art
+ 339:    1  ->  artists
+ 340:    1  ->  ascent
+ 341:    1  ->  aside
+ 342:    1  ->  asked
+ 343:    1  ->  aslant
+ 344:    1  ->  aspire
+ 345:    1  ->  asplenium
+ 346:    1  ->  assent
+ 347:    1  ->  astir
+ 348:    1  ->  astride
+ 349:    1  ->  asura
+ 350:    1  ->  ate
+ 351:    1  ->  attempt
+ 352:    1  ->  attentive
+ 353:    1  ->  awake
+ 354:    1  ->  awful
+ 355:    1  ->  awhile
+ 356:    1  ->  ay
+ 357:    1  ->  bad
+ 358:    1  ->  balvastro
+ 359:    1  ->  baron
+ 360:    1  ->  beauregard
+ 361:    1  ->  beauty
+ 362:    1  ->  because
+ 363:    1  ->  bed
+ 364:    1  ->  bedchamber
+ 365:    1  ->  begged
+ 366:    1  ->  begin
+ 367:    1  ->  behaved
+ 368:    1  ->  being
+ 369:    1  ->  bel
+ 370:    1  ->  belt
+ 371:    1  ->  bench
+ 372:    1  ->  beneath
+ 373:    1  ->  bennydeck's
+ 374:    1  ->  best
+ 375:    1  ->  bestia
+ 376:    1  ->  betsy
+ 377:    1  ->  bewildered
+ 378:    1  ->  beyond
+ 379:    1  ->  bhunda
+ 380:    1  ->  big
+ 381:    1  ->  biggest
+ 382:    1  ->  bill
+ 383:    1  ->  binds
+ 384:    1  ->  biology
+ 385:    1  ->  bird
+ 386:    1  ->  birdikins
+ 387:    1  ->  birdlike
+ 388:    1  ->  blank
+ 389:    1  ->  blazed
+ 390:    1  ->  blazing
+ 391:    1  ->  bleating
+ 392:    1  ->  blood
+ 393:    1  ->  blueskins
+ 394:    1  ->  boatmen
+ 395:    1  ->  body
+ 396:    1  ->  bolt
+ 397:    1  ->  bone
+ 398:    1  ->  bones
+ 399:    1  ->  boolooroo
+ 400:    1  ->  boots
+ 401:    1  ->  both
+ 402:    1  ->  brand
+ 403:    1  ->  brandd
+ 404:    1  ->  breadhouse
+ 405:    1  ->  bred
+ 406:    1  ->  breeding
+ 407:    1  ->  bremer
+ 408:    1  ->  brides
+ 409:    1  ->  brig
+ 410:    1  ->  bring
+ 411:    1  ->  brion's
+ 412:    1  ->  broke
+ 413:    1  ->  brother
+ 414:    1  ->  bugs
+ 415:    1  ->  burden
+ 416:    1  ->  burn
+ 417:    1  ->  burning
+ 418:    1  ->  buzzer's
+ 419:    1  ->  bye
+ 420:    1  ->  cabin
+ 421:    1  ->  called
+ 422:    1  ->  can
+ 423:    1  ->  can't
+ 424:    1  ->  canada
+ 425:    1  ->  captains
+ 426:    1  ->  car
+ 427:    1  ->  cards
+ 428:    1  ->  cares
+ 429:    1  ->  cars
+ 430:    1  ->  catherine
+ 431:    1  ->  catherine's
+ 432:    1  ->  cavernous
+ 433:    1  ->  centaur
+ 434:    1  ->  center
+ 435:    1  ->  chand
+ 436:    1  ->  chandler
+ 437:    1  ->  characteristic
+ 438:    1  ->  charleston
+ 439:    1  ->  check
+ 440:    1  ->  cheroot
+ 441:    1  ->  chestnut
+ 442:    1  ->  chico
+ 443:    1  ->  child's
+ 444:    1  ->  chiselled
+ 445:    1  ->  chop
+ 446:    1  ->  christians
+ 447:    1  ->  citizen
+ 448:    1  ->  clamour
+ 449:    1  ->  claudia
+ 450:    1  ->  claws
+ 451:    1  ->  clear
+ 452:    1  ->  clearly
+ 453:    1  ->  close
+ 454:    1  ->  cloudlike
+ 455:    1  ->  color
+ 456:    1  ->  colored
+ 457:    1  ->  colors
+ 458:    1  ->  commandant's
+ 459:    1  ->  commotions
+ 460:    1  ->  complain
+ 461:    1  ->  congal
+ 462:    1  ->  congal's
+ 463:    1  ->  consists
+ 464:    1  ->  consult
+ 465:    1  ->  contestants
+ 466:    1  ->  contrasted
+ 467:    1  ->  conventicles
+ 468:    1  ->  corncakes
+ 469:    1  ->  corners
+ 470:    1  ->  creep
+ 471:    1  ->  crests
+ 472:    1  ->  crevassed
+ 473:    1  ->  criminal
+ 474:    1  ->  crook
+ 475:    1  ->  crowd
+ 476:    1  ->  cruel
+ 477:    1  ->  cruelty
+ 478:    1  ->  crust
+ 479:    1  ->  cuthbert
+ 480:    1  ->  cutter
+ 481:    1  ->  dah
+ 482:    1  ->  dais
+ 483:    1  ->  dangers
+ 484:    1  ->  dare
+ 485:    1  ->  darfhulva
+ 486:    1  ->  deadened
+ 487:    1  ->  deaf
+ 488:    1  ->  dear
+ 489:    1  ->  debasing
+ 490:    1  ->  declamations
+ 491:    1  ->  deed
+ 492:    1  ->  deer
+ 493:    1  ->  default
+ 494:    1  ->  defective
+ 495:    1  ->  defiantly
+ 496:    1  ->  delaunay's
+ 497:    1  ->  delectasti
+ 498:    1  ->  dene
+ 499:    1  ->  desist
+ 500:    1  ->  desolation
+ 501:    1  ->  despatched
+ 502:    1  ->  destroy
+ 503:    1  ->  detail
+ 504:    1  ->  deucalion
+ 505:    1  ->  devours
+ 506:    1  ->  difficulty
+ 507:    1  ->  dim
+ 508:    1  ->  discussion
+ 509:    1  ->  disdainfully
+ 510:    1  ->  diseases
+ 511:    1  ->  disgrace
+ 512:    1  ->  disgraceful
+ 513:    1  ->  disgust
+ 514:    1  ->  dispatched
+ 515:    1  ->  docile
+ 516:    1  ->  doing
+ 517:    1  ->  doma
+ 518:    1  ->  dome
+ 519:    1  ->  domed
+ 520:    1  ->  doomed
+ 521:    1  ->  door
+ 522:    1  ->  downward
+ 523:    1  ->  drachm
+ 524:    1  ->  drafted
+ 525:    1  ->  dragged
+ 526:    1  ->  drawer
+ 527:    1  ->  dread
+ 528:    1  ->  dreams
+ 529:    1  ->  drinking
+ 530:    1  ->  drooped
+ 531:    1  ->  drying
+ 532:    1  ->  dude
+ 533:    1  ->  due
+ 534:    1  ->  dugout
+ 535:    1  ->  dulcinea
+ 536:    1  ->  dummy's
+ 537:    1  ->  during
+ 538:    1  ->  duty
+ 539:    1  ->  dwell
+ 540:    1  ->  e
+ 541:    1  ->  e'er
+ 542:    1  ->  each
+ 543:    1  ->  ear
+ 544:    1  ->  early
+ 545:    1  ->  echoed
+ 546:    1  ->  echoing
+ 547:    1  ->  edward
+ 548:    1  ->  eh
+ 549:    1  ->  either
+ 550:    1  ->  elect
+ 551:    1  ->  embraced
+ 552:    1  ->  emerald
+ 553:    1  ->  emotion
+ 554:    1  ->  emotional
+ 555:    1  ->  emotions
+ 556:    1  ->  enables
+ 557:    1  ->  enchanters
+ 558:    1  ->  endeavoured
+ 559:    1  ->  enormous
+ 560:    1  ->  entice
+ 561:    1  ->  epilobium
+ 562:    1  ->  ere
+ 563:    1  ->  error
+ 564:    1  ->  eskimos
+ 565:    1  ->  etched
+ 566:    1  ->  europe
+ 567:    1  ->  euston
+ 568:    1  ->  events
+ 569:    1  ->  every
+ 570:    1  ->  evinced
+ 571:    1  ->  exacted
+ 572:    1  ->  exalted
+ 573:    1  ->  excited
+ 574:    1  ->  exclaiming
+ 575:    1  ->  exprest
+ 576:    1  ->  extraordinary
+ 577:    1  ->  failing
+ 578:    1  ->  fails
+ 579:    1  ->  fair
+ 580:    1  ->  fairs
+ 581:    1  ->  falsehood
+ 582:    1  ->  famous
+ 583:    1  ->  favourable
+ 584:    1  ->  feet
+ 585:    1  ->  fell
+ 586:    1  ->  fellow
+ 587:    1  ->  fetching
+ 588:    1  ->  fetes
+ 589:    1  ->  feverishly
+ 590:    1  ->  fifth
+ 591:    1  ->  finally
+ 592:    1  ->  finger
+ 593:    1  ->  fingernail
+ 594:    1  ->  finnacta
+ 595:    1  ->  fist
+ 596:    1  ->  fits
+ 597:    1  ->  fixed
+ 598:    1  ->  fjordungr
+ 599:    1  ->  fled
+ 600:    1  ->  flesh
+ 601:    1  ->  flood
+ 602:    1  ->  floodlight
+ 603:    1  ->  flowed
+ 604:    1  ->  foe
+ 605:    1  ->  foil
+ 606:    1  ->  folk
+ 607:    1  ->  follow
+ 608:    1  ->  followed
+ 609:    1  ->  foot
+ 610:    1  ->  footed
+ 611:    1  ->  force
+ 612:    1  ->  fort
+ 613:    1  ->  forward
+ 614:    1  ->  foul
+ 615:    1  ->  found
+ 616:    1  ->  fountains
+ 617:    1  ->  four
+ 618:    1  ->  fraid
+ 619:    1  ->  frog
+ 620:    1  ->  fry
+ 621:    1  ->  full
+ 622:    1  ->  fumbled
+ 623:    1  ->  funny
+ 624:    1  ->  further
+ 625:    1  ->  gage
+ 626:    1  ->  gait
+ 627:    1  ->  ganny
+ 628:    1  ->  gardar
+ 629:    1  ->  garrison
+ 630:    1  ->  gascon
+ 631:    1  ->  gather
+ 632:    1  ->  gesticulating
+ 633:    1  ->  gills
+ 634:    1  ->  gingle
+ 635:    1  ->  girls
+ 636:    1  ->  glenarvan
+ 637:    1  ->  glorious
+ 638:    1  ->  glycerin
+ 639:    1  ->  golden
+ 640:    1  ->  gouty
+ 641:    1  ->  gradually
+ 642:    1  ->  grandeur
+ 643:    1  ->  grate
+ 644:    1  ->  gratitude
+ 645:    1  ->  great
+ 646:    1  ->  greed
+ 647:    1  ->  green
+ 648:    1  ->  grey
+ 649:    1  ->  griffin's
+ 650:    1  ->  groom's
+ 651:    1  ->  ground
+ 652:    1  ->  grouped
+ 653:    1  ->  growing
+ 654:    1  ->  grows
+ 655:    1  ->  guide
+ 656:    1  ->  guides
+ 657:    1  ->  gulf
+ 658:    1  ->  gulfs
+ 659:    1  ->  gully
+ 660:    1  ->  gulp
+ 661:    1  ->  habit
+ 662:    1  ->  hadn't
+ 663:    1  ->  haired
+ 664:    1  ->  halley
+ 665:    1  ->  hamlet
+ 666:    1  ->  handler
+ 667:    1  ->  handsome
+ 668:    1  ->  hangar
+ 669:    1  ->  hans
+ 670:    1  ->  hansel
+ 671:    1  ->  happy
+ 672:    1  ->  harbor
+ 673:    1  ->  hardwigg
+ 674:    1  ->  hast
+ 675:    1  ->  haven't
+ 676:    1  ->  head
+ 677:    1  ->  heady
+ 678:    1  ->  hear
+ 679:    1  ->  heard
+ 680:    1  ->  heaven
+ 681:    1  ->  helped
+ 682:    1  ->  her's
+ 683:    1  ->  herbivore
+ 684:    1  ->  heuchera
+ 685:    1  ->  highway
+ 686:    1  ->  highwayman
+ 687:    1  ->  hilda
+ 688:    1  ->  hindmost
+ 689:    1  ->  hold
+ 690:    1  ->  holds
+ 691:    1  ->  hole
+ 692:    1  ->  homecoming
+ 693:    1  ->  hope
+ 694:    1  ->  horizon
+ 695:    1  ->  horror
+ 696:    1  ->  horse
+ 697:    1  ->  hospitable
+ 698:    1  ->  hour
+ 699:    1  ->  however
+ 700:    1  ->  howls
+ 701:    1  ->  hull
+ 702:    1  ->  humanity
+ 703:    1  ->  humor
+ 704:    1  ->  hundred
+ 705:    1  ->  i'd
+ 706:    1  ->  i'll
+ 707:    1  ->  idealisation
+ 708:    1  ->  il
+ 709:    1  ->  impara
+ 710:    1  ->  impetuously
+ 711:    1  ->  impost
+ 712:    1  ->  impulses
+ 713:    1  ->  impulsive
+ 714:    1  ->  inevitably
+ 715:    1  ->  inferences
+ 716:    1  ->  infuses
+ 717:    1  ->  insight
+ 718:    1  ->  instead
+ 719:    1  ->  insuperable
+ 720:    1  ->  interdict
+ 721:    1  ->  interdicted
+ 722:    1  ->  intruder
+ 723:    1  ->  inured
+ 724:    1  ->  irish
+ 725:    1  ->  irolg
+ 726:    1  ->  island
+ 727:    1  ->  itinerant
+ 728:    1  ->  jagged
+ 729:    1  ->  johnny
+ 730:    1  ->  johnston
+ 731:    1  ->  joint
+ 732:    1  ->  joyous
+ 733:    1  ->  joyously
+ 734:    1  ->  keep
+ 735:    1  ->  keeping
+ 736:    1  ->  keeps
+ 737:    1  ->  kerchiefs
+ 738:    1  ->  khosala
+ 739:    1  ->  kittens
+ 740:    1  ->  knack
+ 741:    1  ->  knight
+ 742:    1  ->  labours
+ 743:    1  ->  lacquey's
+ 744:    1  ->  lad
+ 745:    1  ->  lady
+ 746:    1  ->  laid
+ 747:    1  ->  lake
+ 748:    1  ->  languages
+ 749:    1  ->  largess
+ 750:    1  ->  larva
+ 751:    1  ->  lashes
+ 752:    1  ->  last
+ 753:    1  ->  lasted
+ 754:    1  ->  layer
+ 755:    1  ->  lean
+ 756:    1  ->  leaped
+ 757:    1  ->  leg
+ 758:    1  ->  legs
+ 759:    1  ->  let
+ 760:    1  ->  libano
+ 761:    1  ->  liberated
+ 762:    1  ->  licentious
+ 763:    1  ->  lids
+ 764:    1  ->  lie
+ 765:    1  ->  life
+ 766:    1  ->  light
+ 767:    1  ->  lightly
+ 768:    1  ->  liveryman
+ 769:    1  ->  loafing
+ 770:    1  ->  loaves
+ 771:    1  ->  lodge
+ 772:    1  ->  logs
+ 773:    1  ->  loincloth
+ 774:    1  ->  lombroso
+ 775:    1  ->  look
+ 776:    1  ->  looking
+ 777:    1  ->  looks
+ 778:    1  ->  lose
+ 779:    1  ->  lost
+ 780:    1  ->  love
+ 781:    1  ->  low
+ 782:    1  ->  luck
+ 783:    1  ->  lucky
+ 784:    1  ->  lurid
+ 785:    1  ->  lying
+ 786:    1  ->  macklewain's
+ 787:    1  ->  magic
+ 788:    1  ->  magistrate
+ 789:    1  ->  make
+ 790:    1  ->  makers
+ 791:    1  ->  makest
+ 792:    1  ->  managed
+ 793:    1  ->  mane
+ 794:    1  ->  manichaeans
+ 795:    1  ->  many
+ 796:    1  ->  march
+ 797:    1  ->  marriage
+ 798:    1  ->  martians
+ 799:    1  ->  marvelling
+ 800:    1  ->  master
+ 801:    1  ->  masts
+ 802:    1  ->  matchmaking
+ 803:    1  ->  matters
+ 804:    1  ->  maybe
+ 805:    1  ->  meals
+ 806:    1  ->  means
+ 807:    1  ->  measured
+ 808:    1  ->  merely
+ 809:    1  ->  middle
+ 810:    1  ->  might
+ 811:    1  ->  mildly
+ 812:    1  ->  miles
+ 813:    1  ->  milk
+ 814:    1  ->  mine
+ 815:    1  ->  minute
+ 816:    1  ->  misfortune
+ 817:    1  ->  missouri
+ 818:    1  ->  mistaken
+ 819:    1  ->  mixture
+ 820:    1  ->  moan
+ 821:    1  ->  modoc
+ 822:    1  ->  modocs
+ 823:    1  ->  moira
+ 824:    1  ->  moling
+ 825:    1  ->  mom
+ 826:    1  ->  monstrously
+ 827:    1  ->  montesinos
+ 828:    1  ->  moraine
+ 829:    1  ->  mosses
+ 830:    1  ->  mother
+ 831:    1  ->  moulded
+ 832:    1  ->  mount
+ 833:    1  ->  mountaineers
+ 834:    1  ->  mountebanks
+ 835:    1  ->  mouth
+ 836:    1  ->  mouths
+ 837:    1  ->  move
+ 838:    1  ->  moves
+ 839:    1  ->  mud
+ 840:    1  ->  mule
+ 841:    1  ->  muleteers
+ 842:    1  ->  mustache
+ 843:    1  ->  myrdals
+ 844:    1  ->  nager
+ 845:    1  ->  name
+ 846:    1  ->  narrative
+ 847:    1  ->  near
+ 848:    1  ->  nearer
+ 849:    1  ->  need'st
+ 850:    1  ->  negro
+ 851:    1  ->  neighbours
+ 852:    1  ->  neither
+ 853:    1  ->  newscasts
+ 854:    1  ->  nice
+ 855:    1  ->  nicless
+ 856:    1  ->  night
+ 857:    1  ->  nomes
+ 858:    1  ->  noontide
+ 859:    1  ->  northwestward
+ 860:    1  ->  notion
+ 861:    1  ->  notwithstanding
+ 862:    1  ->  nourishing
+ 863:    1  ->  numbers
+ 864:    1  ->  nut
+ 865:    1  ->  nutty
+ 866:    1  ->  oars
+ 867:    1  ->  obey
+ 868:    1  ->  obeying
+ 869:    1  ->  occasionally
+ 870:    1  ->  off
+ 871:    1  ->  offences
+ 872:    1  ->  officer
+ 873:    1  ->  often
+ 874:    1  ->  old
+ 875:    1  ->  onward
+ 876:    1  ->  openings
+ 877:    1  ->  opens
+ 878:    1  ->  orbit
+ 879:    1  ->  order
+ 880:    1  ->  other
+ 881:    1  ->  outside
+ 882:    1  ->  overhead
+ 883:    1  ->  overthrow
+ 884:    1  ->  owe
+ 885:    1  ->  own
+ 886:    1  ->  pairs
+ 887:    1  ->  palimpsest
+ 888:    1  ->  pampas
+ 889:    1  ->  pangs
+ 890:    1  ->  panic
+ 891:    1  ->  panza
+ 892:    1  ->  pardoned
+ 893:    1  ->  parlour
+ 894:    1  ->  paroxysms
+ 895:    1  ->  partly
+ 896:    1  ->  passage
+ 897:    1  ->  passed
+ 898:    1  ->  penances
+ 899:    1  ->  people's
+ 900:    1  ->  perceived
+ 901:    1  ->  person
+ 902:    1  ->  personally
+ 903:    1  ->  petronels
+ 904:    1  ->  phantasies
+ 905:    1  ->  piglike
+ 906:    1  ->  pike
+ 907:    1  ->  pillow
+ 908:    1  ->  pincers
+ 909:    1  ->  pine
+ 910:    1  ->  pitt
+ 911:    1  ->  plain
+ 912:    1  ->  plaiting
+ 913:    1  ->  plaits
+ 914:    1  ->  plane
+ 915:    1  ->  play
+ 916:    1  ->  pleased
+ 917:    1  ->  pointed
+ 918:    1  ->  poked
+ 919:    1  ->  police
+ 920:    1  ->  pony
+ 921:    1  ->  poorer
+ 922:    1  ->  popolo
+ 923:    1  ->  portraits
+ 924:    1  ->  possessors
+ 925:    1  ->  posturing
+ 926:    1  ->  power
+ 927:    1  ->  prayers
+ 928:    1  ->  presty
+ 929:    1  ->  price
+ 930:    1  ->  print
+ 931:    1  ->  prize
+ 932:    1  ->  probably
+ 933:    1  ->  process
+ 934:    1  ->  prodigious
+ 935:    1  ->  program
+ 936:    1  ->  proletariat
+ 937:    1  ->  promise
+ 938:    1  ->  promised
+ 939:    1  ->  prop
+ 940:    1  ->  prophet
+ 941:    1  ->  prophetic
+ 942:    1  ->  proserpina
+ 943:    1  ->  proved
+ 944:    1  ->  prowled
+ 945:    1  ->  pure
+ 946:    1  ->  pyre
+ 947:    1  ->  pyrrha
+ 948:    1  ->  quaffed
+ 949:    1  ->  quinci
+ 950:    1  ->  quite
+ 951:    1  ->  radiophone
+ 952:    1  ->  raimented
+ 953:    1  ->  ran
+ 954:    1  ->  randal
+ 955:    1  ->  range
+ 956:    1  ->  rate
+ 957:    1  ->  rath
+ 958:    1  ->  re
+ 959:    1  ->  reap
+ 960:    1  ->  received
+ 961:    1  ->  reckless
+ 962:    1  ->  red
+ 963:    1  ->  refuse
+ 964:    1  ->  regardless
+ 965:    1  ->  regent's
+ 966:    1  ->  reigned
+ 967:    1  ->  relief
+ 968:    1  ->  remained
+ 969:    1  ->  remembered
+ 970:    1  ->  remorse
+ 971:    1  ->  renewing
+ 972:    1  ->  residences
+ 973:    1  ->  responsive
+ 974:    1  ->  restrained
+ 975:    1  ->  retreating
+ 976:    1  ->  returned
+ 977:    1  ->  rhymes
+ 978:    1  ->  rictus
+ 979:    1  ->  ridicule
+ 980:    1  ->  ring
+ 981:    1  ->  rise
+ 982:    1  ->  riverlike
+ 983:    1  ->  roar
+ 984:    1  ->  roared
+ 985:    1  ->  rock
+ 986:    1  ->  roof
+ 987:    1  ->  rooted
+ 988:    1  ->  rose
+ 989:    1  ->  rough
+ 990:    1  ->  rout
+ 991:    1  ->  rubbed
+ 992:    1  ->  rugged
+ 993:    1  ->  ruggedo's
+ 994:    1  ->  rut
+ 995:    1  ->  sad
+ 996:    1  ->  saknussemm
+ 997:    1  ->  salvation
+ 998:    1  ->  sap
+ 999:    1  ->  sarah
+1000:    1  ->  saturday
+1001:    1  ->  savour
+1002:    1  ->  say
+1003:    1  ->  saying
+1004:    1  ->  scar
+1005:    1  ->  scared
+1006:    1  ->  scattered
+1007:    1  ->  scholar
+1008:    1  ->  school
+1009:    1  ->  schools
+1010:    1  ->  scrubbed
+1011:    1  ->  sear
+1012:    1  ->  seat
+1013:    1  ->  second's
+1014:    1  ->  secure
+1015:    1  ->  seen
+1016:    1  ->  sensed
+1017:    1  ->  served
+1018:    1  ->  settled
+1019:    1  ->  shall
+1020:    1  ->  shasta
+1021:    1  ->  shew
+1022:    1  ->  shimerdas
+1023:    1  ->  shining
+1024:    1  ->  shoes
+1025:    1  ->  shoot
+1026:    1  ->  shot
+1027:    1  ->  shouldn't
+1028:    1  ->  show
+1029:    1  ->  sid
+1030:    1  ->  sierra
+1031:    1  ->  sigh
+1032:    1  ->  sighs
+1033:    1  ->  simpleton
+1034:    1  ->  sin
+1035:    1  ->  sir
+1036:    1  ->  skelly
+1037:    1  ->  slaked
+1038:    1  ->  sledge
+1039:    1  ->  slopes
+1040:    1  ->  sneffels
+1041:    1  ->  soil
+1042:    1  ->  something
+1043:    1  ->  soon
+1044:    1  ->  sooth
+1045:    1  ->  sophists
+1046:    1  ->  soul
+1047:    1  ->  sound
+1048:    1  ->  southwest
+1049:    1  ->  sow
+1050:    1  ->  spare
+1051:    1  ->  splendour
+1052:    1  ->  spook
+1053:    1  ->  spoon
+1054:    1  ->  spouse
+1055:    1  ->  springs
+1056:    1  ->  spruce
+1057:    1  ->  squires
+1058:    1  ->  stab
+1059:    1  ->  stand
+1060:    1  ->  standing
+1061:    1  ->  stands
+1062:    1  ->  stationmaster
+1063:    1  ->  steamy
+1064:    1  ->  stepped
+1065:    1  ->  stevie
+1066:    1  ->  stopped
+1067:    1  ->  stored
+1068:    1  ->  storehouse
+1069:    1  ->  strike
+1070:    1  ->  stupefied
+1071:    1  ->  stupirti
+1072:    1  ->  succeed
+1073:    1  ->  sudden
+1074:    1  ->  sudvestr
+1075:    1  ->  sun's
+1076:    1  ->  sunday
+1077:    1  ->  suns
+1078:    1  ->  surprising
+1079:    1  ->  swallowed
+1080:    1  ->  sward
+1081:    1  ->  swellings
+1082:    1  ->  swooned
+1083:    1  ->  sword
+1084:    1  ->  sydenham
+1085:    1  ->  sydney
+1086:    1  ->  syrtis
+1087:    1  ->  tahoe
+1088:    1  ->  talking
+1089:    1  ->  taloned
+1090:    1  ->  tarrinzeau
+1091:    1  ->  teach
+1092:    1  ->  teaspoonful
+1093:    1  ->  telephoned
+1094:    1  ->  tennessee
+1095:    1  ->  thank
+1096:    1  ->  thatched
+1097:    1  ->  themselves
+1098:    1  ->  there's
+1099:    1  ->  therefore
+1100:    1  ->  third
+1101:    1  ->  thirty
+1102:    1  ->  threadbare
+1103:    1  ->  threw
+1104:    1  ->  throne
+1105:    1  ->  thrown
+1106:    1  ->  thunder
+1107:    1  ->  tide
+1108:    1  ->  tight
+1109:    1  ->  time
+1110:    1  ->  tint
+1111:    1  ->  toil
+1112:    1  ->  tolled
+1113:    1  ->  tongue
+1114:    1  ->  tony
+1115:    1  ->  tony's
+1116:    1  ->  totally
+1117:    1  ->  touched
+1118:    1  ->  tracing
+1119:    1  ->  traitor
+1120:    1  ->  trampe
+1121:    1  ->  translating
+1122:    1  ->  trauma
+1123:    1  ->  traveled
+1124:    1  ->  tree
+1125:    1  ->  trees
+1126:    1  ->  tremble
+1127:    1  ->  trim
+1128:    1  ->  troke
+1129:    1  ->  trot's
+1130:    1  ->  trouble
+1131:    1  ->  try
+1132:    1  ->  tube
+1133:    1  ->  turmoil
+1134:    1  ->  turn
+1135:    1  ->  turns
+1136:    1  ->  twenties
+1137:    1  ->  twisted
+1138:    1  ->  tyrannise
+1139:    1  ->  tyrants
+1140:    1  ->  una
+1141:    1  ->  unable
+1142:    1  ->  unbarring
+1143:    1  ->  unbridled
+1144:    1  ->  unbroken
+1145:    1  ->  undressing
+1146:    1  ->  unfastening
+1147:    1  ->  unfavourable
+1148:    1  ->  unhappy
+1149:    1  ->  unhurried
+1150:    1  ->  united
+1151:    1  ->  unknown
+1152:    1  ->  unsolved
+1153:    1  ->  until
+1154:    1  ->  unto
+1155:    1  ->  untruss
+1156:    1  ->  untrussing
+1157:    1  ->  unworthy
+1158:    1  ->  upstairs
+1159:    1  ->  urania
+1160:    1  ->  ursus
+1161:    1  ->  uses
+1162:    1  ->  valley
+1163:    1  ->  vantages
+1164:    1  ->  various
+1165:    1  ->  vein
+1166:    1  ->  vendhya
+1167:    1  ->  vengeance
+1168:    1  ->  veni
+1169:    1  ->  venus
+1170:    1  ->  verandah
+1171:    1  ->  verloc's
+1172:    1  ->  vial
+1173:    1  ->  vigour
+1174:    1  ->  virtue
+1175:    1  ->  vision
+1176:    1  ->  volatile
+1177:    1  ->  walked
+1178:    1  ->  waned
+1179:    1  ->  want
+1180:    1  ->  wanted
+1181:    1  ->  wave
+1182:    1  ->  we'll
+1183:    1  ->  wearing
+1184:    1  ->  weird
+1185:    1  ->  wert
+1186:    1  ->  whelm
+1187:    1  ->  whereas
+1188:    1  ->  which
+1189:    1  ->  whiplash
+1190:    1  ->  whirr
+1191:    1  ->  who's
+1192:    1  ->  wholly
+1193:    1  ->  why
+1194:    1  ->  wicked
+1195:    1  ->  wilds
+1196:    1  ->  willow
+1197:    1  ->  winding
+1198:    1  ->  window
+1199:    1  ->  wine
+1200:    1  ->  wise
+1201:    1  ->  witch
+1202:    1  ->  woman
+1203:    1  ->  woods
+1204:    1  ->  woolly
+1205:    1  ->  word
+1206:    1  ->  worked
+1207:    1  ->  worth
+1208:    1  ->  wretchedness
+1209:    1  ->  wrong
+1210:    1  ->  wronged
+1211:    1  ->  yank
+1212:    1  ->  yet
+1213:    1  ->  yokul
+1214:    1  ->  you'd
+1215:    1  ->  you've
+1216:    1  ->  young
+     -------
+      2343
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

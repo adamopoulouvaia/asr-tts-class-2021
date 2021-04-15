@@ -1,0 +1,2 @@
+Folder train-clean-5 contains 1519 files and 5.31 hours of recording!
+Folder dev-clean-2 contains 1089 files and 2.04 hours of recording!
